@@ -52,83 +52,43 @@ namespace PractiseProject
             {
                 var res = item.Values.ToList();
 
-                switch (res[1].ToString())
-                {
-                    case "buttonCheck":
-                        ButtonCheck(res[0], res[2], res[3], res[4], res[5], res[6]);
-                        break;
-                    case "iconCheck":
-                        IconCheck(res[0], res[2], res[3], res[4], res[5], res[6], res[7]);
-                        break;
-                    case "pictureCheck":
-                        PictureCheck(res[2], res[3], res[4], res[5], res[6], res[7]);
-                        break;
-                    case "textCheck":
-                        TextCheck(res[2], res[3], res[4], res[5], res[6]);
-                        break;
-
-                }
+                ElementCheck(res[0], res[2], res[3], res[4], res[5], res[6], res[7]);
             }
 
 
         }
 
-        private void TextCheck(string valueName, string valueType, string elementType, string isDisplayed, string text)
-        {
-            var element = driver.FindElements(By.TagName(valueType)).First(x => x.GetAttribute(elementType).Contains(valueName));
-            var et = element.Text;
-            Assert.AreEqual(element.Text, text);
-            IsElementDisplayed(isDisplayed.Split(","), element.Displayed);
-        }
-
-        private void PictureCheck(string valueName, string valueType, string elementType, string isDisplayed, string text, string link)
-        {
-            var img = driver.FindElements(By.TagName(valueType)).First(x => x.GetAttribute("alt") == valueName);
-            var imgSrc = img.GetAttribute("src");
-            Assert.IsTrue(imgSrc.Contains(link));
-            IsElementDisplayed(isDisplayed.Split(","), img.Displayed);
-
-        }
-
-        private void IconCheck(string optionName, string valueName, string valueType, string elementType, string isDisplayed, string text, string link)
+        
+        private void ElementCheck(string optionName, string valueName, string valueType, string elementType, string compareType, string isDisplayed, string compareData)
         {
             try
             {
-                var icon = driver.FindElement(By.Id(valueName));
-                Assert.AreEqual(icon.GetAttribute("href"), link);
-                IsElementDisplayed(isDisplayed.Split(","), icon.Displayed);
-                message = $"Button's {optionName} {elementType} is {valueName} ";
+                string imgSrc;
+                
+                var element = driver.FindElements(By.TagName(valueType)).First(x => x.GetAttribute(elementType).Contains(valueName));
+                if (compareType == "textContent")
+                {
+                    imgSrc = element.Text.Trim();
+                }
+                else
+                {
+                     imgSrc = element.GetAttribute(compareType);
+                }
+              
+                Assert.AreEqual(imgSrc, compareData);
+                IsElementDisplayed(isDisplayed.Split(","), element.Displayed);
+                buttons.Add((optionName, compareType, compareData, "Pass"));
             }
             catch
             {
-                message = $"Button failed";
+                buttons.Add((optionName, compareType, compareData, "Fail"));
+
                 Assert.Fail(message);
             }
         }
+       
 
-        private void ButtonCheck(string optionName, string valueName, string valueType, string elementType, string isDisplayed, string text)
-        {
-
-            try
-            {
-                var btn = driver.FindElements(By.TagName(valueType)).First(x => x.GetAttribute(elementType).Contains(valueName));
-                var href = btn.GetAttribute(elementType);
-                var displayCheck = isDisplayed.Split(",");
-                Assert.IsTrue(href.Contains(valueName));
-                IsElementDisplayed(displayCheck, btn.Displayed);
-                message = $"Button's {optionName} {elementType} is {valueName} " ;
-                buttons.Add((optionName, elementType, valueName, "Pass"));
-
-            }
-            catch {
-                message = $"Button failed";
-                buttons.Add((optionName, elementType, valueName,"Fail"));
-                Assert.Fail(message);
-            }
-
-
-
-        }
+        
         public void IsElementDisplayed(string[] displayCheck, bool btnDisplayed)
         {
             if (displayCheck[0] == "true")

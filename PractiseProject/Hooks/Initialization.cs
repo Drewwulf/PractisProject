@@ -59,7 +59,7 @@ public sealed class TestHooks
 
             foreach (var button in a)
             {
-                controller.message += $"Button{button.Item1} {button.Item2} has {button.Item3} | {button.Item4}\r\n";
+                controller.message += $"{button.Item1} {button.Item2} has {button.Item3} | {button.Item4}<br/>";
                 
             }
         }

@@ -7,7 +7,7 @@ Scenario: NavigationCheck- Chrome
 	Given Choose button HomeButton in navigation
 	When Check all components in navigation
 		| OptionName     | method       | valueName          | valueType | elementType | isDisplayed | text                | link                                                                           |
-		| Logo           | pictureCheck | Дім-Двір           | img       | alt         | true,true   |                     | img/logo.jpg                                                                   |
+		| Logo           | pictureCheck | Дім-Двір           | img       | alt         | true,true   |                     | https://dimdvirdevelop.netlify.app/img/logo.jpg                                                               |
 		| Phone-number   | textCheck    | navbar-text        | span      | class       | true,true   | 380-98-868-63-63    |                                                                                |
 		| Instagram-icon | iconCheck    | icon1              | a         | id          | true,true   |                     | https://www.instagram.com/dim_dvir?igsh=MTdtZWlvZWFqNDF3Nw%3D%3D&utm_source=qr |
 		| facebook-icon  | iconCheck    | icon2              | a         | id          | true,true   |                     | https://www.facebook.com/share/1C7ca43qC7                                      |

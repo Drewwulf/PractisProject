@@ -133,35 +133,35 @@ this.ScenarioInitialize(scenarioInfo);
                             "valueName",
                             "valueType",
                             "elementType",
+                            "compareType",
                             "isDisplayed",
-                            "text",
-                            "link"});
+                            "compareData"});
                 table1.AddRow(new string[] {
                             "Logo",
                             "pictureCheck",
                             "Дім-Двір",
                             "img",
                             "alt",
+                            "src",
                             "true,true",
-                            "",
-                            "img/logo.jpg"});
+                            "https://dimdvirdevelop.netlify.app/img/logo.jpg"});
                 table1.AddRow(new string[] {
                             "Phone-number",
                             "textCheck",
                             "navbar-text",
                             "span",
                             "class",
+                            "textContent",
                             "true,true",
-                            "380-98-868-63-63",
-                            ""});
+                            "380-98-868-63-63"});
                 table1.AddRow(new string[] {
                             "Instagram-icon",
                             "iconCheck",
                             "icon1",
                             "a",
                             "id",
+                            "href",
                             "true,true",
-                            "",
                             "https://www.instagram.com/dim_dvir?igsh=MTdtZWlvZWFqNDF3Nw%3D%3D&utm_source=qr"});
                 table1.AddRow(new string[] {
                             "facebook-icon",
@@ -169,45 +169,36 @@ this.ScenarioInitialize(scenarioInfo);
                             "icon2",
                             "a",
                             "id",
+                            "href",
                             "true,true",
-                            "",
                             "https://www.facebook.com/share/1C7ca43qC7"});
                 table1.AddRow(new string[] {
                             "HomeButton",
                             "buttonCheck",
-                            "/home",
+                            "Головна",
                             "a",
+                            "textContent",
                             "href",
                             "true,true",
-                            "Головна",
-                            ""});
+                            "https://dvirdevelop.netlify.app/home"});
                 table1.AddRow(new string[] {
                             "AboutButton",
                             "buttonCheck",
-                            "/about-us",
+                            "Про нас",
                             "a",
+                            "textContent",
                             "href",
                             "true,true",
-                            "Про нас",
-                            ""});
+                            "https://dimdvirdevelop.netlify.app/about-us"});
                 table1.AddRow(new string[] {
                             "Catalog",
                             "buttonCheck",
-                            "/portfolio-gallery",
-                            "a",
-                            "href",
-                            "true,true",
                             "Каталог наших робіт",
-                            ""});
-                table1.AddRow(new string[] {
-                            "Contacts",
-                            "buttonCheccheck ourProductionSectionk",
-                            "/contact-us",
                             "a",
+                            "textContent",
                             "href",
                             "true,true",
-                            "Контакти",
-                            ""});
+                            "https://dimdvirdevelop.netlify.app/portfolio-gallery"});
 #line 9
  await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table1, "When ");
 #line hidden
@@ -233,13 +224,13 @@ this.ScenarioInitialize(scenarioInfo);
                             "Комплектуючі до покрівельних систем",
                             "https://tile.ua/wp-content/uploads/2023/10/xkomplektuiuch.jpg.pagespeed.ic.AIfVle" +
                                 "-OQm.webp"});
-#line 19
+#line 18
  await testRunner.AndAsync("check ourProductionSection", ((string)(null)), table2, "And ");
 #line hidden
-#line 26
+#line 25
  await testRunner.ThenAsync("compare data", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
-#line 27
+#line 26
  await testRunner.AndAsync("close browser", ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
 #line hidden
             }
@@ -253,7 +244,7 @@ this.ScenarioInitialize(scenarioInfo);
             string[] tagsOfScenario = ((string[])(null));
             global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
             global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("MainPageContent - Edge - inprivate", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 30
+#line 29
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((global::Reqnroll.TagHelper.ContainsIgnoreTag(scenarioInfo.CombinedTags) || global::Reqnroll.TagHelper.ContainsIgnoreTag(featureTags)))
@@ -263,7 +254,7 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 await this.ScenarioStartAsync();
-#line 31
+#line 30
  await testRunner.GivenAsync("open page", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
                 global::Reqnroll.Table table3 = new global::Reqnroll.Table(new string[] {
@@ -288,10 +279,10 @@ this.ScenarioInitialize(scenarioInfo);
                             "Комплектуючі до покрівельних систем",
                             "https://tile.ua/wp-content/uploads/2023/10/xkomplektuiuch.jpg.pagespeed.ic.AIfVle" +
                                 "-OQm.webp"});
-#line 32
+#line 31
  await testRunner.WhenAsync("check ourProductionSection", ((string)(null)), table3, "When ");
 #line hidden
-#line 39
+#line 38
  await testRunner.ThenAsync("compare data", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
             }

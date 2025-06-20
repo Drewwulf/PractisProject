@@ -141,7 +141,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "alt",
                             "true,true",
                             "",
-                            "img/logo.jpg"});
+                            "https://dimdvirdevelop.netlify.app/img/logo.jpg"});
                 table4.AddRow(new string[] {
                             "Phone-number",
                             "textCheck",
