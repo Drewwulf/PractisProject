@@ -124,7 +124,7 @@ this.ScenarioInitialize(scenarioInfo);
 #line 7
  await testRunner.GivenAsync("Choose button HomeButton in navigation", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
-                global::Reqnroll.Table table4 = new global::Reqnroll.Table(new string[] {
+                global::Reqnroll.Table table5 = new global::Reqnroll.Table(new string[] {
                             "OptionName",
                             "method",
                             "valueName",
@@ -133,7 +133,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "isDisplayed",
                             "text",
                             "link"});
-                table4.AddRow(new string[] {
+                table5.AddRow(new string[] {
                             "Logo",
                             "pictureCheck",
                             "Дім-Двір",
@@ -142,7 +142,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "true,true",
                             "",
                             "https://dimdvirdevelop.netlify.app/img/logo.jpg"});
-                table4.AddRow(new string[] {
+                table5.AddRow(new string[] {
                             "Phone-number",
                             "textCheck",
                             "navbar-text",
@@ -151,7 +151,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "true,true",
                             "380-98-868-63-63",
                             ""});
-                table4.AddRow(new string[] {
+                table5.AddRow(new string[] {
                             "Instagram-icon",
                             "iconCheck",
                             "icon1",
@@ -160,7 +160,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "true,true",
                             "",
                             "https://www.instagram.com/dim_dvir?igsh=MTdtZWlvZWFqNDF3Nw%3D%3D&utm_source=qr"});
-                table4.AddRow(new string[] {
+                table5.AddRow(new string[] {
                             "facebook-icon",
                             "iconCheck",
                             "icon2",
@@ -169,7 +169,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "true,true",
                             "",
                             "https://www.facebook.com/share/1C7ca43qC7"});
-                table4.AddRow(new string[] {
+                table5.AddRow(new string[] {
                             "HomeButton",
                             "buttonCheck",
                             "/href",
@@ -178,7 +178,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "true,true",
                             "Головна",
                             ""});
-                table4.AddRow(new string[] {
+                table5.AddRow(new string[] {
                             "AboutButton",
                             "buttonCheck",
                             "/about-us",
@@ -187,7 +187,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "true,true",
                             "Про нас",
                             ""});
-                table4.AddRow(new string[] {
+                table5.AddRow(new string[] {
                             "Catalog",
                             "buttonCheck",
                             "/portfolio-gallery",
@@ -196,7 +196,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "true,true",
                             "Каталог наших робіт",
                             ""});
-                table4.AddRow(new string[] {
+                table5.AddRow(new string[] {
                             "Contacts",
                             "buttonCheck",
                             "/contact-us",
@@ -206,7 +206,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "Контакти",
                             ""});
 #line 8
- await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table4, "When ");
+ await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table5, "When ");
 #line hidden
 #line 18
  await testRunner.ThenAsync("close browser", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
@@ -234,117 +234,6 @@ this.ScenarioInitialize(scenarioInfo);
                 await this.ScenarioStartAsync();
 #line 21
  await testRunner.GivenAsync("Choose button HomeButton in navigation", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
-#line hidden
-                global::Reqnroll.Table table5 = new global::Reqnroll.Table(new string[] {
-                            "OptionName",
-                            "method",
-                            "valueName",
-                            "valueType",
-                            "elementType",
-                            "isDisplayed",
-                            "text",
-                            "link"});
-                table5.AddRow(new string[] {
-                            "Logo",
-                            "pictureCheck",
-                            "Дім-Двір",
-                            "img",
-                            "alt",
-                            "true,true",
-                            "",
-                            "img/logo.jpg"});
-                table5.AddRow(new string[] {
-                            "Phone-number",
-                            "textCheck",
-                            "navbar-text",
-                            "span",
-                            "class",
-                            "true,true",
-                            "380-98-868-63-63",
-                            ""});
-                table5.AddRow(new string[] {
-                            "Instagram-icon",
-                            "iconCheck",
-                            "icon1",
-                            "a",
-                            "id",
-                            "true,true",
-                            "",
-                            "https://www.instagram.com/dim_dvir?igsh=MTdtZWlvZWFqNDF3Nw%3D%3D&utm_source=qr"});
-                table5.AddRow(new string[] {
-                            "facebook-icon",
-                            "iconCheck",
-                            "icon2",
-                            "a",
-                            "id",
-                            "true,true",
-                            "",
-                            "https://www.facebook.com/share/1C7ca43qC7"});
-                table5.AddRow(new string[] {
-                            "HomeButton",
-                            "buttonCheck",
-                            "/home",
-                            "a",
-                            "href",
-                            "true,true",
-                            "Головна",
-                            ""});
-                table5.AddRow(new string[] {
-                            "AboutButton",
-                            "buttonCheck",
-                            "/about-us",
-                            "a",
-                            "href",
-                            "true,true",
-                            "Про нас",
-                            ""});
-                table5.AddRow(new string[] {
-                            "Catalog",
-                            "buttonCheck",
-                            "/portfolio-gallery",
-                            "a",
-                            "href",
-                            "true,true",
-                            "Каталог наших робіт",
-                            ""});
-                table5.AddRow(new string[] {
-                            "Contacts",
-                            "buttonCheck",
-                            "/contact-us",
-                            "a",
-                            "href",
-                            "true,true",
-                            "Контакти",
-                            ""});
-#line 22
- await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table5, "When ");
-#line hidden
-#line 32
- await testRunner.ThenAsync("close browser", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
-#line hidden
-            }
-            await this.ScenarioCleanupAsync();
-        }
-        
-        [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("NavigationCheckAboutPage- Chrome - inprivate")]
-        public async global::System.Threading.Tasks.Task NavigationCheckAboutPage_Chrome_Inprivate()
-        {
-            string[] tagsOfScenario = ((string[])(null));
-            global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
-            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("NavigationCheckAboutPage- Chrome - inprivate", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 34
-this.ScenarioInitialize(scenarioInfo);
-#line hidden
-            if ((global::Reqnroll.TagHelper.ContainsIgnoreTag(scenarioInfo.CombinedTags) || global::Reqnroll.TagHelper.ContainsIgnoreTag(featureTags)))
-            {
-                testRunner.SkipScenario();
-            }
-            else
-            {
-                await this.ScenarioStartAsync();
-#line 35
- await testRunner.GivenAsync("Choose button AboutUsButton in navigation", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
                 global::Reqnroll.Table table6 = new global::Reqnroll.Table(new string[] {
                             "OptionName",
@@ -427,10 +316,10 @@ this.ScenarioInitialize(scenarioInfo);
                             "true,true",
                             "Контакти",
                             ""});
-#line 36
+#line 22
  await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table6, "When ");
 #line hidden
-#line 46
+#line 32
  await testRunner.ThenAsync("close browser", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
             }
@@ -438,13 +327,13 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("NavigationCheckAboutPage- Edge - inprivate")]
-        public async global::System.Threading.Tasks.Task NavigationCheckAboutPage_Edge_Inprivate()
+        [NUnit.Framework.DescriptionAttribute("NavigationCheckAboutPage- Chrome - inprivate")]
+        public async global::System.Threading.Tasks.Task NavigationCheckAboutPage_Chrome_Inprivate()
         {
             string[] tagsOfScenario = ((string[])(null));
             global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
-            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("NavigationCheckAboutPage- Edge - inprivate", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 48
+            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("NavigationCheckAboutPage- Chrome - inprivate", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 34
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((global::Reqnroll.TagHelper.ContainsIgnoreTag(scenarioInfo.CombinedTags) || global::Reqnroll.TagHelper.ContainsIgnoreTag(featureTags)))
@@ -454,7 +343,7 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 await this.ScenarioStartAsync();
-#line 49
+#line 35
  await testRunner.GivenAsync("Choose button AboutUsButton in navigation", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
                 global::Reqnroll.Table table7 = new global::Reqnroll.Table(new string[] {
@@ -538,10 +427,10 @@ this.ScenarioInitialize(scenarioInfo);
                             "true,true",
                             "Контакти",
                             ""});
-#line 50
+#line 36
  await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table7, "When ");
 #line hidden
-#line 60
+#line 46
  await testRunner.ThenAsync("close browser", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
             }
@@ -549,14 +438,14 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("NavigationCheckCatalogePage- Edge - inprivate")]
-        public async global::System.Threading.Tasks.Task NavigationCheckCatalogePage_Edge_Inprivate()
+        [NUnit.Framework.DescriptionAttribute("NavigationCheckAboutPage- Edge - inprivate")]
+        public async global::System.Threading.Tasks.Task NavigationCheckAboutPage_Edge_Inprivate()
         {
             string[] tagsOfScenario = ((string[])(null));
             global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
-            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("NavigationCheckCatalogePage- Edge - inprivate", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 63
- this.ScenarioInitialize(scenarioInfo);
+            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("NavigationCheckAboutPage- Edge - inprivate", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 48
+this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((global::Reqnroll.TagHelper.ContainsIgnoreTag(scenarioInfo.CombinedTags) || global::Reqnroll.TagHelper.ContainsIgnoreTag(featureTags)))
             {
@@ -565,8 +454,8 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 await this.ScenarioStartAsync();
-#line 64
- await testRunner.GivenAsync("Choose button CatalogeButton in navigation", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
+#line 49
+ await testRunner.GivenAsync("Choose button AboutUsButton in navigation", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
                 global::Reqnroll.Table table8 = new global::Reqnroll.Table(new string[] {
                             "OptionName",
@@ -649,10 +538,10 @@ this.ScenarioInitialize(scenarioInfo);
                             "true,true",
                             "Контакти",
                             ""});
-#line 65
+#line 50
  await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table8, "When ");
 #line hidden
-#line 75
+#line 60
  await testRunner.ThenAsync("close browser", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
             }
@@ -660,14 +549,14 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("NavigationCheckCatalogePage- Chrome - inprivate")]
-        public async global::System.Threading.Tasks.Task NavigationCheckCatalogePage_Chrome_Inprivate()
+        [NUnit.Framework.DescriptionAttribute("NavigationCheckCatalogePage- Edge - inprivate")]
+        public async global::System.Threading.Tasks.Task NavigationCheckCatalogePage_Edge_Inprivate()
         {
             string[] tagsOfScenario = ((string[])(null));
             global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
-            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("NavigationCheckCatalogePage- Chrome - inprivate", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 77
-this.ScenarioInitialize(scenarioInfo);
+            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("NavigationCheckCatalogePage- Edge - inprivate", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 63
+ this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((global::Reqnroll.TagHelper.ContainsIgnoreTag(scenarioInfo.CombinedTags) || global::Reqnroll.TagHelper.ContainsIgnoreTag(featureTags)))
             {
@@ -676,7 +565,7 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 await this.ScenarioStartAsync();
-#line 78
+#line 64
  await testRunner.GivenAsync("Choose button CatalogeButton in navigation", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
                 global::Reqnroll.Table table9 = new global::Reqnroll.Table(new string[] {
@@ -760,10 +649,10 @@ this.ScenarioInitialize(scenarioInfo);
                             "true,true",
                             "Контакти",
                             ""});
-#line 79
+#line 65
  await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table9, "When ");
 #line hidden
-#line 89
+#line 75
  await testRunner.ThenAsync("close browser", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
             }
@@ -771,13 +660,13 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("NavigationCheckContactsPage- Edge - inprivate")]
-        public async global::System.Threading.Tasks.Task NavigationCheckContactsPage_Edge_Inprivate()
+        [NUnit.Framework.DescriptionAttribute("NavigationCheckCatalogePage- Chrome - inprivate")]
+        public async global::System.Threading.Tasks.Task NavigationCheckCatalogePage_Chrome_Inprivate()
         {
             string[] tagsOfScenario = ((string[])(null));
             global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
-            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("NavigationCheckContactsPage- Edge - inprivate", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 91
+            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("NavigationCheckCatalogePage- Chrome - inprivate", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 77
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((global::Reqnroll.TagHelper.ContainsIgnoreTag(scenarioInfo.CombinedTags) || global::Reqnroll.TagHelper.ContainsIgnoreTag(featureTags)))
@@ -787,8 +676,8 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 await this.ScenarioStartAsync();
-#line 92
- await testRunner.GivenAsync("Choose button ContactsButton in navigation", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
+#line 78
+ await testRunner.GivenAsync("Choose button CatalogeButton in navigation", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
                 global::Reqnroll.Table table10 = new global::Reqnroll.Table(new string[] {
                             "OptionName",
@@ -871,10 +760,10 @@ this.ScenarioInitialize(scenarioInfo);
                             "true,true",
                             "Контакти",
                             ""});
-#line 93
+#line 79
  await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table10, "When ");
 #line hidden
-#line 103
+#line 89
  await testRunner.ThenAsync("close browser", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
             }
@@ -882,13 +771,13 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("NavigationCheckContactsPage- Chrome - inprivate")]
-        public async global::System.Threading.Tasks.Task NavigationCheckContactsPage_Chrome_Inprivate()
+        [NUnit.Framework.DescriptionAttribute("NavigationCheckContactsPage- Edge - inprivate")]
+        public async global::System.Threading.Tasks.Task NavigationCheckContactsPage_Edge_Inprivate()
         {
             string[] tagsOfScenario = ((string[])(null));
             global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
-            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("NavigationCheckContactsPage- Chrome - inprivate", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 105
+            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("NavigationCheckContactsPage- Edge - inprivate", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 91
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((global::Reqnroll.TagHelper.ContainsIgnoreTag(scenarioInfo.CombinedTags) || global::Reqnroll.TagHelper.ContainsIgnoreTag(featureTags)))
@@ -898,7 +787,7 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 await this.ScenarioStartAsync();
-#line 106
+#line 92
  await testRunner.GivenAsync("Choose button ContactsButton in navigation", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
                 global::Reqnroll.Table table11 = new global::Reqnroll.Table(new string[] {
@@ -982,8 +871,119 @@ this.ScenarioInitialize(scenarioInfo);
                             "true,true",
                             "Контакти",
                             ""});
-#line 107
+#line 93
  await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table11, "When ");
+#line hidden
+#line 103
+ await testRunner.ThenAsync("close browser", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
+#line hidden
+            }
+            await this.ScenarioCleanupAsync();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("NavigationCheckContactsPage- Chrome - inprivate")]
+        public async global::System.Threading.Tasks.Task NavigationCheckContactsPage_Chrome_Inprivate()
+        {
+            string[] tagsOfScenario = ((string[])(null));
+            global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
+            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("NavigationCheckContactsPage- Chrome - inprivate", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 105
+this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            if ((global::Reqnroll.TagHelper.ContainsIgnoreTag(scenarioInfo.CombinedTags) || global::Reqnroll.TagHelper.ContainsIgnoreTag(featureTags)))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                await this.ScenarioStartAsync();
+#line 106
+ await testRunner.GivenAsync("Choose button ContactsButton in navigation", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
+#line hidden
+                global::Reqnroll.Table table12 = new global::Reqnroll.Table(new string[] {
+                            "OptionName",
+                            "method",
+                            "valueName",
+                            "valueType",
+                            "elementType",
+                            "isDisplayed",
+                            "text",
+                            "link"});
+                table12.AddRow(new string[] {
+                            "Logo",
+                            "pictureCheck",
+                            "Дім-Двір",
+                            "img",
+                            "alt",
+                            "true,true",
+                            "",
+                            "img/logo.jpg"});
+                table12.AddRow(new string[] {
+                            "Phone-number",
+                            "textCheck",
+                            "navbar-text",
+                            "span",
+                            "class",
+                            "true,true",
+                            "380-98-868-63-63",
+                            ""});
+                table12.AddRow(new string[] {
+                            "Instagram-icon",
+                            "iconCheck",
+                            "icon1",
+                            "a",
+                            "id",
+                            "true,true",
+                            "",
+                            "https://www.instagram.com/dim_dvir?igsh=MTdtZWlvZWFqNDF3Nw%3D%3D&utm_source=qr"});
+                table12.AddRow(new string[] {
+                            "facebook-icon",
+                            "iconCheck",
+                            "icon2",
+                            "a",
+                            "id",
+                            "true,true",
+                            "",
+                            "https://www.facebook.com/share/1C7ca43qC7"});
+                table12.AddRow(new string[] {
+                            "HomeButton",
+                            "buttonCheck",
+                            "/home",
+                            "a",
+                            "href",
+                            "true,true",
+                            "Головна",
+                            ""});
+                table12.AddRow(new string[] {
+                            "AboutButton",
+                            "buttonCheck",
+                            "/about-us",
+                            "a",
+                            "href",
+                            "true,true",
+                            "Про нас",
+                            ""});
+                table12.AddRow(new string[] {
+                            "Catalog",
+                            "buttonCheck",
+                            "/portfolio-gallery",
+                            "a",
+                            "href",
+                            "true,true",
+                            "Каталог наших робіт",
+                            ""});
+                table12.AddRow(new string[] {
+                            "Contacts",
+                            "buttonCheck",
+                            "/contact-us",
+                            "a",
+                            "href",
+                            "true,true",
+                            "Контакти",
+                            ""});
+#line 107
+ await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table12, "When ");
 #line hidden
 #line 117
  await testRunner.ThenAsync("close browser", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");

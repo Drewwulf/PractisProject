@@ -103,14 +103,14 @@ namespace PractiseProject.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("CheckEveryProductionCatalog - Chrome")]
+        [NUnit.Framework.DescriptionAttribute("CheckFirstProductionCatalog - Chrome")]
         [NUnit.Framework.CategoryAttribute("tag1")]
-        public async global::System.Threading.Tasks.Task CheckEveryProductionCatalog_Chrome()
+        public async global::System.Threading.Tasks.Task CheckFirstProductionCatalog_Chrome()
         {
             string[] tagsOfScenario = new string[] {
                     "tag1"};
             global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
-            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("CheckEveryProductionCatalog - Chrome", null, tagsOfScenario, argumentsOfScenario, featureTags);
+            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("CheckFirstProductionCatalog - Chrome", null, tagsOfScenario, argumentsOfScenario, featureTags);
 #line 6
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -122,77 +122,265 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 await this.ScenarioStartAsync();
 #line 7
- await testRunner.GivenAsync("Choose one of Production in section", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
+ await testRunner.GivenAsync("Choose one of Production1 in section", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
-                global::Reqnroll.Table table12 = new global::Reqnroll.Table(new string[] {
+                global::Reqnroll.Table table13 = new global::Reqnroll.Table(new string[] {
+                            "elementType",
                             "text",
-                            "photoLink"});
-                table12.AddRow(new string[] {
+                            "photoLink",
+                            "isDisplayed",
+                            "isDicribe"});
+                table13.AddRow(new string[] {
+                            "h2",
                             "Жалюзі класичні",
-                            "https://dimdvirdevelop.netlify.app/img/portfolio/pf1.jpg"});
-                table12.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/img/category02/Product1Photo1.png",
+                            "true,true",
+                            "false,true"});
+                table13.AddRow(new string[] {
+                            "h2",
                             "Жалюзі STANDART",
-                            "https://tile.ua/wp-content/uploads/2023/02/x530yf530.jpg.pagespeed.ic.hvnFsQi7o_." +
-                                "webp"});
-                table12.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/img/category02/Product2Photo1.png",
+                            "true,true",
+                            "false,true"});
+                table13.AddRow(new string[] {
+                            "h2",
                             "Жалюзі РОМБ",
-                            "https://tile.ua/wp-content/uploads/2021/07/xmetalevyj-sajdynh-1.jpg.pagespeed.ic." +
-                                "iCilFAWKtl.webp"});
-                table12.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/img/category02/Product3Photo1.png",
+                            "true,true",
+                            "false,true"});
+                table13.AddRow(new string[] {
+                            "h2",
                             "Жалюзі ЛЕГО",
-                            "https://tile.ua/wp-content/uploads/2021/07/xPravylna-vodostichka.jpg.pagespeed.ic" +
-                                ".C3TstMbhZO.webp"});
-                table12.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/img/category02/Product4Photo1.png",
+                            "true,true",
+                            "false,true"});
+                table13.AddRow(new string[] {
+                            "h2",
                             "РАНЧО РОМБ",
-                            "https://tile.ua/wp-content/uploads/2023/10/xkomplektuiuch.jpg.pagespeed.ic.AIfVle" +
-                                "-OQm.webp"});
-                table12.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/img/category02/Product5Photo1.png",
+                            "true,true",
+                            "false,true"});
+                table13.AddRow(new string[] {
+                            "h2",
                             "РАНЧО PIPE L",
-                            ""});
-                table12.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/img/category02/Product6Photo1.png",
+                            "true,true",
+                            "false,true"});
+                table13.AddRow(new string[] {
+                            "h2",
                             "РАНЧО PIPE XL",
-                            ""});
-                table12.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/img/category02/Product7Photo1.png",
+                            "true,true",
+                            "false,true"});
+                table13.AddRow(new string[] {
+                            "h2",
                             "РАНЧО ПРЯМЕ",
-                            "/img/category02/Product8Photo1.png"});
-                table12.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/img/category02/Product8Photo1.png",
+                            "true,true",
+                            "false,true"});
+                table13.AddRow(new string[] {
+                            "h2",
                             "РАНЧО ПРЯМЕ STRONG",
-                            "/img/category02/Product9Photo1.png"});
-                table12.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/img/category02/Product9Photo1.png",
+                            "true,true",
+                            "false,true"});
+                table13.AddRow(new string[] {
+                            "h2",
                             "РАНЧО ПІВКРУГЛЕ",
-                            "/img/category02/Product10Photo1.png"});
-                table12.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/img/category02/Product10Photo1.png",
+                            "true,true",
+                            "false,true"});
+                table13.AddRow(new string[] {
+                            "h2",
                             "РАНЧО ФІГУРНЕ",
-                            "/img/category02/Product11Photo1.png"});
-                table12.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/img/category02/Product11Photo1.png",
+                            "true,true",
+                            "false,true"});
+                table13.AddRow(new string[] {
+                            "h2",
                             "РАНЧО ФІГУРНЕ 2-ст",
-                            "/img/category02/Product12Photo1.png"});
-                table12.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/img/category02/Product12Photo1.png",
+                            "true,true",
+                            "false,true"});
+                table13.AddRow(new string[] {
+                            "h2",
                             "РАНЧО РІЗНОШИРИННЕ ПІВКРУГЛЕ",
-                            "/img/category02/Product13Photo1.png"});
-                table12.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/img/category02/Product13Photo1.png",
+                            "true,true",
+                            "false,true"});
+                table13.AddRow(new string[] {
+                            "h2",
                             "РАНЧО КОСЕ З ПРОМІЖКОМ",
-                            "/img/category02/Product14Photo1.png"});
-                table12.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/img/category02/Product14Photo1.png",
+                            "true,true",
+                            "false,true"});
+                table13.AddRow(new string[] {
+                            "h2",
                             "РАНЧО КОСЕ БЕЗ ПРОМІЖКУ",
-                            "/img/category02/Product15Photo1.png"});
-                table12.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/img/category02/Product15Photo1.png",
+                            "true,true",
+                            "false,true"});
+                table13.AddRow(new string[] {
+                            "h2",
                             "ТВІНГО КЛАСИЧНЕ",
-                            "/img/category02/Product16Photo1.png"});
-                table12.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/img/category02/Product16Photo1.png",
+                            "true,true",
+                            "false,true"});
+                table13.AddRow(new string[] {
+                            "h2",
                             "ТВІНГО ПРЯМЕ",
-                            "/img/category02/Product17Photo1.png"});
-                table12.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/img/category02/Product17Photo1.png",
+                            "true,true",
+                            "false,true"});
+                table13.AddRow(new string[] {
+                            "h2",
                             "ТВІНГО DUOS",
-                            "/img/category02/Product18Photo1.png"});
-                table12.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/img/category02/Product18Photo1.png",
+                            "true,true",
+                            "false,true"});
+                table13.AddRow(new string[] {
+                            "h2",
                             "ГОРИЗОНТ 170 мм",
-                            "/img/category02/Product19Photo1.png"});
+                            "https://dimdvirdevelop.netlify.app/img/category02/Product19Photo1.png",
+                            "true,true",
+                            "false,true"});
+                table13.AddRow(new string[] {
+                            "h2",
+                            "ГОРИЗОНТ 170 мм 2-ст",
+                            "https://dimdvirdevelop.netlify.app/img/category02/Product20Photo1.png",
+                            "true,true",
+                            "false,true"});
+                table13.AddRow(new string[] {
+                            "h2",
+                            "ГОРИЗОНТ 225 мм",
+                            "https://dimdvirdevelop.netlify.app/img/category02/Product21Photo1.png",
+                            "true,true",
+                            "false,true"});
+                table13.AddRow(new string[] {
+                            "h2",
+                            "ГОРИЗОНТ 225 мм 2-ст",
+                            "https://dimdvirdevelop.netlify.app/img/category02/Product22Photo1.png",
+                            "true,true",
+                            "false,true"});
 #line 8
- await testRunner.WhenAsync("check CategoryProductionSection", ((string)(null)), table12, "When ");
+ await testRunner.WhenAsync("check ourProductionSection", ((string)(null)), table13, "When ");
 #line hidden
 #line 32
- await testRunner.ThenAsync("[outcome]", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
+ await testRunner.ThenAsync("compare data", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
+#line hidden
+#line 33
+ await testRunner.AndAsync("close browser", ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
+#line hidden
+            }
+            await this.ScenarioCleanupAsync();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("CheckSecondProductionCatalog - Chrome")]
+        public async global::System.Threading.Tasks.Task CheckSecondProductionCatalog_Chrome()
+        {
+            string[] tagsOfScenario = ((string[])(null));
+            global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
+            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("CheckSecondProductionCatalog - Chrome", null, tagsOfScenario, argumentsOfScenario, featureTags);
+#line 35
+this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            if ((global::Reqnroll.TagHelper.ContainsIgnoreTag(scenarioInfo.CombinedTags) || global::Reqnroll.TagHelper.ContainsIgnoreTag(featureTags)))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                await this.ScenarioStartAsync();
+#line 36
+ await testRunner.GivenAsync("Choose one of Production2 in section", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
+#line hidden
+                global::Reqnroll.Table table14 = new global::Reqnroll.Table(new string[] {
+                            "elementType",
+                            "text",
+                            "photoLink",
+                            "isDisplayed",
+                            "isDiscribe"});
+                table14.AddRow(new string[] {
+                            "h2",
+                            "Фальц-настил",
+                            "https://dimdvirdevelop.netlify.app/img/category01/Product1Photo1(1).png",
+                            "true,true",
+                            "true,true"});
+                table14.AddRow(new string[] {
+                            "h2",
+                            "Фальц КЛАСИКА",
+                            "https://dimdvirdevelop.netlify.app/img/category01/Product2Photo1(1).png",
+                            "true,true",
+                            "true,true"});
+                table14.AddRow(new string[] {
+                            "h2",
+                            "Фальц ТРАПЕЦІЯ",
+                            "https://dimdvirdevelop.netlify.app/img/category01/Product3Photo1(1).png",
+                            "true,true",
+                            "true,true"});
+                table14.AddRow(new string[] {
+                            "h2",
+                            "Фальц ХВИЛЯ",
+                            "https://dimdvirdevelop.netlify.app/img/category01/Product4Photo1(1).png",
+                            "true,true",
+                            "true,true"});
+                table14.AddRow(new string[] {
+                            "h2",
+                            "Клік Фальц ПРЕМІУМ",
+                            "https://dimdvirdevelop.netlify.app/img/category01/Product5Photo1(1).png",
+                            "true,true",
+                            "true,true"});
+                table14.AddRow(new string[] {
+                            "h2",
+                            "Клік Фальц СМАРТ",
+                            "https://dimdvirdevelop.netlify.app/img/category01/Product6Photo1(1).png",
+                            "true,true",
+                            "true,true"});
+                table14.AddRow(new string[] {
+                            "h2",
+                            "Профнастил СИНУСОЇДА",
+                            "https://dimdvirdevelop.netlify.app/img/category01/Product7Photo1(1).png",
+                            "true,true",
+                            "true,true"});
+                table14.AddRow(new string[] {
+                            "h2",
+                            "Профнастил С-8",
+                            "https://dimdvirdevelop.netlify.app/img/category01/Product8Photo1(1).png",
+                            "true,true",
+                            "true,true"});
+                table14.AddRow(new string[] {
+                            "h2",
+                            "Профнастил C-14",
+                            "https://dimdvirdevelop.netlify.app/img/category01/Product9Photo1(1).png",
+                            "true,true",
+                            "true,true"});
+                table14.AddRow(new string[] {
+                            "h2",
+                            "Профнастил H-14",
+                            "https://dimdvirdevelop.netlify.app/img/category01/Product10Photo1%20(1).png",
+                            "true,true",
+                            "true,true"});
+                table14.AddRow(new string[] {
+                            "h2",
+                            "Профнастил H-20",
+                            "https://dimdvirdevelop.netlify.app/img/category01/Product11Photo1(1).png",
+                            "true,true",
+                            "true,true"});
+                table14.AddRow(new string[] {
+                            "h2",
+                            "Профнастил C-20",
+                            "https://dimdvirdevelop.netlify.app/img/category01/Product12Photo1(1).png",
+                            "true,true",
+                            "true,true"});
+#line 37
+ await testRunner.WhenAsync("check ourProductionSection", ((string)(null)), table14, "When ");
+#line hidden
+#line 52
+ await testRunner.ThenAsync("compare data", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
+#line hidden
+#line 53
+ await testRunner.AndAsync("close browser", ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
 #line hidden
             }
             await this.ScenarioCleanupAsync();

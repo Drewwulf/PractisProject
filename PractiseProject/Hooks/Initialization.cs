@@ -50,31 +50,33 @@ public sealed class TestHooks
     [AfterStep]
     public void AfterStep(DriverFixture driverFixture)
     {
-       var table = scenarioContext.StepContext.StepInfo.Table;
+        
+        var table = scenarioContext.StepContext.StepInfo.Table;
+        string fullMessage = string.Join("\n", controller.message);
+        /*
+                if (table != null)
+                {
+                    var a = controller.buttons;
+                    controller.message = "";
 
-        if (table != null)
-        {
-            var a = controller.buttons;
-            controller.message = "";
+                    foreach (var button in a)
+                    {
+                        controller.message += $"{button.Item1} {button.Item2} has {button.Item3} | {button.Item4}<br/>";
 
-            foreach (var button in a)
-            {
-                controller.message += $"{button.Item1} {button.Item2} has {button.Item3} | {button.Item4}<br/>";
-                
-            }
-        }
+                    }
+                }*/
         if (scenarioContext.TestError == null)
         {
             switch (ScenarioStepContext.Current.StepInfo.StepDefinitionType.ToString())
             {
                 case "Given":
-                    feature.CreateNode<Given>(scenarioContext.StepContext.StepInfo.Text).Pass(controller.message);
+                    feature.CreateNode<Given>(scenarioContext.StepContext.StepInfo.Text).Pass(fullMessage);
                     break;
                 case "When":
-                    feature.CreateNode<When>(scenarioContext.StepContext.StepInfo.Text).Pass(controller.message);
+                    feature.CreateNode<When>(scenarioContext.StepContext.StepInfo.Text).Pass(fullMessage);
                     break;
                 case "Then":
-                    feature.CreateNode<Then>(scenarioContext.StepContext.StepInfo.Text).Pass(controller.message);
+                    feature.CreateNode<Then>(scenarioContext.StepContext.StepInfo.Text).Pass(fullMessage);
                     break;
             }
         }
@@ -90,13 +92,13 @@ public sealed class TestHooks
             switch (ScenarioStepContext.Current.StepInfo.StepDefinitionType.ToString())
             {
                 case "Given":
-                    feature.CreateNode<Given>(scenarioContext.StepContext.StepInfo.Text).Fail(controller.message).AddScreenCaptureFromPath(screenshotPath);
+                    feature.CreateNode<Given>(scenarioContext.StepContext.StepInfo.Text).Fail(fullMessage).AddScreenCaptureFromPath(screenshotPath);
                     break;
                 case "When":
-                   feature.CreateNode<When>(scenarioContext.StepContext.StepInfo.Text).Fail(controller.message).AddScreenCaptureFromPath(screenshotPath);
+                    feature.CreateNode<When>(scenarioContext.StepContext.StepInfo.Text).Fail(fullMessage).AddScreenCaptureFromPath(screenshotPath);
                     break;
                 case "Then":
-                    feature.CreateNode<Then>(scenarioContext.StepContext.StepInfo.Text).Fail(controller.message).AddScreenCaptureFromPath(screenshotPath);
+                    feature.CreateNode<Then>(scenarioContext.StepContext.StepInfo.Text).Fail(fullMessage).AddScreenCaptureFromPath(screenshotPath);
                     break;
             }
         }
@@ -104,7 +106,7 @@ public sealed class TestHooks
 
 
 
-
+        controller.message.Clear();
 
 
 

@@ -3,30 +3,51 @@
 A short summary of the feature
 
 @tag1
-Scenario: CheckEveryProductionCatalog - Chrome
-	Given Choose one of Production in section
-	When check CategoryProductionSection
-	| text                         | photoLink                                                                                         |
-	| Жалюзі класичні              | https://dimdvirdevelop.netlify.app/img/portfolio/pf1.jpg                                          |
-	| Жалюзі STANDART              | https://tile.ua/wp-content/uploads/2023/02/x530yf530.jpg.pagespeed.ic.hvnFsQi7o_.webp             |
-	| Жалюзі РОМБ                  | https://tile.ua/wp-content/uploads/2021/07/xmetalevyj-sajdynh-1.jpg.pagespeed.ic.iCilFAWKtl.webp  |
-	| Жалюзі ЛЕГО                  | https://tile.ua/wp-content/uploads/2021/07/xPravylna-vodostichka.jpg.pagespeed.ic.C3TstMbhZO.webp |
-	| РАНЧО РОМБ                   | https://tile.ua/wp-content/uploads/2023/10/xkomplektuiuch.jpg.pagespeed.ic.AIfVle-OQm.webp        |
-	| РАНЧО PIPE L                 |                                                                                                   |
-	| РАНЧО PIPE XL                |                                                                                                   |
-	| РАНЧО ПРЯМЕ                  | /img/category02/Product8Photo1.png                                                                |
-	| РАНЧО ПРЯМЕ STRONG           | /img/category02/Product9Photo1.png                                                                |
-	| РАНЧО ПІВКРУГЛЕ              | /img/category02/Product10Photo1.png                                                               |
-	| РАНЧО ФІГУРНЕ                | /img/category02/Product11Photo1.png                                                               |
-	| РАНЧО ФІГУРНЕ 2-ст           | /img/category02/Product12Photo1.png                                                               |
-	| РАНЧО РІЗНОШИРИННЕ ПІВКРУГЛЕ | /img/category02/Product13Photo1.png                                                               |
-	| РАНЧО КОСЕ З ПРОМІЖКОМ       | /img/category02/Product14Photo1.png                                                               |
-	| РАНЧО КОСЕ БЕЗ ПРОМІЖКУ      | /img/category02/Product15Photo1.png                                                               |
-	| ТВІНГО КЛАСИЧНЕ              | /img/category02/Product16Photo1.png                                                                                                  |
-	| ТВІНГО ПРЯМЕ                 | /img/category02/Product17Photo1.png                                                                                                   |
-	| ТВІНГО DUOS                  |  /img/category02/Product18Photo1.png                                                                                                  |
-	| ГОРИЗОНТ 170 мм              |  /img/category02/Product19Photo1.png                                                                                                  |
+Scenario: CheckFirstProductionCatalog - Chrome
+	Given Choose one of Production1 in section
+	When  check ourProductionSection
+	| elementType | text                         | photoLink                                                             | isDisplayed | isDicribe  |
+	| h2          | Жалюзі класичні              | https://dimdvirdevelop.netlify.app/img/category02/Product1Photo1.png  | true,true   | false,true |
+	| h2          | Жалюзі STANDART              | https://dimdvirdevelop.netlify.app/img/category02/Product2Photo1.png  | true,true   |false,true |
+	| h2          | Жалюзі РОМБ                  | https://dimdvirdevelop.netlify.app/img/category02/Product3Photo1.png  | true,true   |false,true |
+	| h2          | Жалюзі ЛЕГО                  | https://dimdvirdevelop.netlify.app/img/category02/Product4Photo1.png  | true,true   |false,true |
+	| h2          | РАНЧО РОМБ                   | https://dimdvirdevelop.netlify.app/img/category02/Product5Photo1.png  | true,true   |false,true |
+	| h2          | РАНЧО PIPE L                 | https://dimdvirdevelop.netlify.app/img/category02/Product6Photo1.png  | true,true   |false,true |
+	| h2          | РАНЧО PIPE XL                | https://dimdvirdevelop.netlify.app/img/category02/Product7Photo1.png  | true,true   |false,true |
+	| h2          | РАНЧО ПРЯМЕ                  | https://dimdvirdevelop.netlify.app/img/category02/Product8Photo1.png  | true,true   |false,true |
+	| h2          | РАНЧО ПРЯМЕ STRONG           | https://dimdvirdevelop.netlify.app/img/category02/Product9Photo1.png  | true,true   |false,true |
+	| h2          | РАНЧО ПІВКРУГЛЕ              | https://dimdvirdevelop.netlify.app/img/category02/Product10Photo1.png | true,true   |false,true |
+	| h2          | РАНЧО ФІГУРНЕ                | https://dimdvirdevelop.netlify.app/img/category02/Product11Photo1.png | true,true   |false,true |
+	| h2          | РАНЧО ФІГУРНЕ 2-ст           | https://dimdvirdevelop.netlify.app/img/category02/Product12Photo1.png | true,true   |false,true |
+	| h2          | РАНЧО РІЗНОШИРИННЕ ПІВКРУГЛЕ | https://dimdvirdevelop.netlify.app/img/category02/Product13Photo1.png | true,true   |false,true |
+	| h2          | РАНЧО КОСЕ З ПРОМІЖКОМ       | https://dimdvirdevelop.netlify.app/img/category02/Product14Photo1.png | true,true   |false,true |
+	| h2          | РАНЧО КОСЕ БЕЗ ПРОМІЖКУ      | https://dimdvirdevelop.netlify.app/img/category02/Product15Photo1.png | true,true   |false,true |
+	| h2          | ТВІНГО КЛАСИЧНЕ              | https://dimdvirdevelop.netlify.app/img/category02/Product16Photo1.png | true,true   |false,true |
+	| h2          | ТВІНГО ПРЯМЕ                 | https://dimdvirdevelop.netlify.app/img/category02/Product17Photo1.png | true,true   |false,true |
+	| h2          | ТВІНГО DUOS                  | https://dimdvirdevelop.netlify.app/img/category02/Product18Photo1.png | true,true   |false,true |
+	| h2          | ГОРИЗОНТ 170 мм              | https://dimdvirdevelop.netlify.app/img/category02/Product19Photo1.png | true,true   |false,true |
+	| h2          | ГОРИЗОНТ 170 мм 2-ст         | https://dimdvirdevelop.netlify.app/img/category02/Product20Photo1.png | true,true   |false,true |
+	| h2          | ГОРИЗОНТ 225 мм              | https://dimdvirdevelop.netlify.app/img/category02/Product21Photo1.png | true,true   |false,true |
+	| h2          | ГОРИЗОНТ 225 мм 2-ст         | https://dimdvirdevelop.netlify.app/img/category02/Product22Photo1.png | true,true   |false,true |
+	Then compare data
+	And close browser
 
+Scenario: CheckSecondProductionCatalog - Chrome
+	Given Choose one of Production2 in section
+	When  check ourProductionSection
+	| elementType | text                 | photoLink                                                                | isDisplayed | isDiscribe |
+	| h2          | Фальц-настил         | https://dimdvirdevelop.netlify.app/img/category01/Product1Photo1(1).png  | true,true   | true,true  |
+	| h2          | Фальц КЛАСИКА        | https://dimdvirdevelop.netlify.app/img/category01/Product2Photo1(1).png  | true,true   | true,true  |
+	| h2          | Фальц ТРАПЕЦІЯ       | https://dimdvirdevelop.netlify.app/img/category01/Product3Photo1(1).png  | true,true   | true,true  |
+	| h2          | Фальц ХВИЛЯ          | https://dimdvirdevelop.netlify.app/img/category01/Product4Photo1(1).png  | true,true   | true,true  |
+	| h2          | Клік Фальц ПРЕМІУМ   | https://dimdvirdevelop.netlify.app/img/category01/Product5Photo1(1).png  | true,true   | true,true  |
+	| h2          | Клік Фальц СМАРТ     | https://dimdvirdevelop.netlify.app/img/category01/Product6Photo1(1).png  | true,true   | true,true  |
+	| h2          | Профнастил СИНУСОЇДА | https://dimdvirdevelop.netlify.app/img/category01/Product7Photo1(1).png  | true,true   | true,true  |
+	| h2          | Профнастил С-8       | https://dimdvirdevelop.netlify.app/img/category01/Product8Photo1(1).png  | true,true   | true,true  |
+	| h2          | Профнастил C-14      | https://dimdvirdevelop.netlify.app/img/category01/Product9Photo1(1).png | true,true   | true,true  |
+	| h2          | Профнастил H-14      | https://dimdvirdevelop.netlify.app/img/category01/Product10Photo1%20(1).png | true,true   | true,true  |
+	| h2          | Профнастил H-20      | https://dimdvirdevelop.netlify.app/img/category01/Product11Photo1(1).png | true,true   | true,true  |
+	| h2          | Профнастил C-20      |https://dimdvirdevelop.netlify.app/img/category01/Product12Photo1(1).png| true,true   | true,true  |
 
-
-	Then [outcome]
+	Then compare data
+	And close browser
