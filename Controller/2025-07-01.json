@@ -1,0 +1,740 @@
+﻿{
+  "Version": "1.0",
+  "Date": "2025-07-01",
+  "Tests": {
+    "Test failed: CheckFourthProductionCatalog - Chrome": [
+      {
+        "Time": "16:09:23",
+        "Result": "Failed",
+        "Details": "Instagram-icon!=https://www.insagram.com/dim_dvir?igsh=MTdtZWlvZWFqNDF3Nw%3D%3D&utm_source=qr"
+      },
+      {
+        "Time": "16:09:48",
+        "Result": "Failed",
+        "Details": "Instagram-icon!=https://www.insagram.com/dim_dvir?igsh=MTdtZWlvZWFqNDF3Nw%3D%3D&utm_source=qr"
+      }
+    ],
+    "Test passed: CheckFourthProductionCatalog - Chrome": [
+      {
+        "Time": "16:09:23",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      },
+      {
+        "Time": "16:09:49",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      }
+    ],
+    "Test passed: NavigationCheck- Chrome": [
+      {
+        "Time": "16:11:50",
+        "Result": "Passed",
+        "Details": "each element in navigation was founded"
+      },
+      {
+        "Time": "16:11:50",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      }
+    ],
+    "Test passed: NavigationCheck- Edge - inprivate": [
+      {
+        "Time": "16:11:54",
+        "Result": "Passed",
+        "Details": "each element in navigation was founded"
+      },
+      {
+        "Time": "16:11:54",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      }
+    ],
+    "Test passed: NavigationCheckAboutPage- Chrome - inprivate": [
+      {
+        "Time": "16:11:59",
+        "Result": "Passed",
+        "Details": "each element in navigation was founded"
+      },
+      {
+        "Time": "16:11:59",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      }
+    ],
+    "Test failed: NavigationCheckAboutPage- Edge - inprivate": [
+      {
+        "Time": "16:12:01",
+        "Result": "Failed",
+        "Details": "Logo!=https://dimdvirdevelop.netlify.app/img/logo.jpg"
+      },
+      {
+        "Time": "16:12:01",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:01",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:01",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:01",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:01",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:01",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:01",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:02",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      },
+      {
+        "Time": "16:12:03",
+        "Result": "Failed",
+        "Details": "browser didnt close"
+      }
+    ],
+    "Test passed: CheckProduct1 - Chrome": [
+      {
+        "Time": "16:12:55",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      }
+    ]
+  }
+}

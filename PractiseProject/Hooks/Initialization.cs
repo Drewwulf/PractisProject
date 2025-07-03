@@ -5,7 +5,9 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Support.Extensions;
 using PractiseProject;
 using PractiseProject.Drivers;
+using System.Numerics;
 using System.Web;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 
 [Binding]
@@ -16,7 +18,7 @@ public sealed class TestHooks
     private static ExtentTest test;
     ExtentTest feature;
 
-   private readonly MainController controller;
+    private readonly MainController controller;
     private readonly ScenarioContext scenarioContext;
 
     public TestHooks(MainController controller, ScenarioContext scenarioContext)
@@ -46,69 +48,50 @@ public sealed class TestHooks
         feature = test.CreateNode<Scenario>(scenarioContext.ScenarioInfo.Title).Pass();
 
     }
+    [AfterScenario]
+    public void AfterScenario(ScenarioContext scenarioContext)
+    {
+        if (scenarioContext.TestError == null)
+        {
+            // Можна також додати в репорт:
+            feature.CreateNode<Scenario>( scenarioContext.ScenarioInfo.Title).Pass("scenario complete without error");
+        }
 
+
+    }
     [AfterStep]
     public void AfterStep(DriverFixture driverFixture)
     {
-        
-        var table = scenarioContext.StepContext.StepInfo.Table;
-        string fullMessage = string.Join("\n", controller.message);
-        /*
-                if (table != null)
-                {
-                    var a = controller.buttons;
-                    controller.message = "";
-
-                    foreach (var button in a)
-                    {
-                        controller.message += $"{button.Item1} {button.Item2} has {button.Item3} | {button.Item4}<br/>";
-
-                    }
-                }*/
-        if (scenarioContext.TestError == null)
+        if (scenarioContext.TestError != null)
         {
-            switch (ScenarioStepContext.Current.StepInfo.StepDefinitionType.ToString())
-            {
-                case "Given":
-                    feature.CreateNode<Given>(scenarioContext.StepContext.StepInfo.Text).Pass(fullMessage);
-                    break;
-                case "When":
-                    feature.CreateNode<When>(scenarioContext.StepContext.StepInfo.Text).Pass(fullMessage);
-                    break;
-                case "Then":
-                    feature.CreateNode<Then>(scenarioContext.StepContext.StepInfo.Text).Pass(fullMessage);
-                    break;
-            }
-        }
-        else
-        {
+            string fullMessage = string.Join("\n", controller.message);
+
             driver = driverFixture.Driver();
             ITakesScreenshot takesScreenshot = (ITakesScreenshot)driver;
             Screenshot screenshot = takesScreenshot.GetScreenshot();
             string screenshotPath = Path.Combine("Screenshots", $"{Guid.NewGuid()}.png");
             screenshot.SaveAsFile(screenshotPath);
 
-
             switch (ScenarioStepContext.Current.StepInfo.StepDefinitionType.ToString())
             {
                 case "Given":
-                    feature.CreateNode<Given>(scenarioContext.StepContext.StepInfo.Text).Fail(fullMessage).AddScreenCaptureFromPath(screenshotPath);
+                    feature.CreateNode<Given>(scenarioContext.StepContext.StepInfo.Text)
+                        .Fail(fullMessage)
+                        .AddScreenCaptureFromPath(screenshotPath);
                     break;
                 case "When":
-                    feature.CreateNode<When>(scenarioContext.StepContext.StepInfo.Text).Fail(fullMessage).AddScreenCaptureFromPath(screenshotPath);
+                    feature.CreateNode<When>(scenarioContext.StepContext.StepInfo.Text)
+                        .Fail(fullMessage)
+                        .AddScreenCaptureFromPath(screenshotPath);
                     break;
                 case "Then":
-                    feature.CreateNode<Then>(scenarioContext.StepContext.StepInfo.Text).Fail(fullMessage).AddScreenCaptureFromPath(screenshotPath);
+                    feature.CreateNode<Then>(scenarioContext.StepContext.StepInfo.Text)
+                        .Fail(fullMessage)
+                        .AddScreenCaptureFromPath(screenshotPath);
                     break;
             }
         }
 
-
-
-
         controller.message.Clear();
-
-
-
     }
 }

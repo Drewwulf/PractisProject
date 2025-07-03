@@ -122,12 +122,9 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 await this.ScenarioStartAsync();
 #line 7
- await testRunner.GivenAsync("open page", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
+ await testRunner.GivenAsync("Choose button HomeButton in navigation", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
-#line 8
- await testRunner.AndAsync("Choose button HomeButton in navigation", ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
-#line hidden
-                global::Reqnroll.Table table1 = new global::Reqnroll.Table(new string[] {
+                global::Reqnroll.Table table45 = new global::Reqnroll.Table(new string[] {
                             "OptionName",
                             "method",
                             "valueName",
@@ -136,7 +133,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "compareType",
                             "isDisplayed",
                             "compareData"});
-                table1.AddRow(new string[] {
+                table45.AddRow(new string[] {
                             "Logo",
                             "pictureCheck",
                             "Дім-Двір",
@@ -145,7 +142,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "src",
                             "true,true",
                             "https://dimdvirdevelop.netlify.app/img/logo.jpg"});
-                table1.AddRow(new string[] {
+                table45.AddRow(new string[] {
                             "Phone-number",
                             "textCheck",
                             "navbar-text",
@@ -154,7 +151,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "textContent",
                             "true,true",
                             "380-98-868-63-63"});
-                table1.AddRow(new string[] {
+                table45.AddRow(new string[] {
                             "Instagram-icon",
                             "iconCheck",
                             "icon1",
@@ -163,7 +160,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "href",
                             "true,true",
                             "https://www.instagram.com/dim_dvir?igsh=MTdtZWlvZWFqNDF3Nw%3D%3D&utm_source=qr"});
-                table1.AddRow(new string[] {
+                table45.AddRow(new string[] {
                             "facebook-icon",
                             "iconCheck",
                             "icon2",
@@ -172,7 +169,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "href",
                             "true,true",
                             "https://www.facebook.com/share/1C7ca43qC7"});
-                table1.AddRow(new string[] {
+                table45.AddRow(new string[] {
                             "HomeButton",
                             "buttonCheck",
                             "Головна",
@@ -181,7 +178,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "href",
                             "true,true",
                             "https://dimdvirdevelop.netlify.app/home"});
-                table1.AddRow(new string[] {
+                table45.AddRow(new string[] {
                             "AboutButton",
                             "buttonCheck",
                             "Про нас",
@@ -190,7 +187,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "href",
                             "true,true",
                             "https://dimdvirdevelop.netlify.app/about-us"});
-                table1.AddRow(new string[] {
+                table45.AddRow(new string[] {
                             "Catalog",
                             "buttonCheck",
                             "Каталог наших робіт",
@@ -199,50 +196,56 @@ this.ScenarioInitialize(scenarioInfo);
                             "href",
                             "true,true",
                             "https://dimdvirdevelop.netlify.app/portfolio-gallery"});
-#line 9
- await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table1, "When ");
+#line 8
+ await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table45, "When ");
 #line hidden
-                global::Reqnroll.Table table2 = new global::Reqnroll.Table(new string[] {
+                global::Reqnroll.Table table46 = new global::Reqnroll.Table(new string[] {
                             "elementType",
                             "text",
                             "photoLink",
-                            "isDisplayed"});
-                table2.AddRow(new string[] {
+                            "isDisplayed",
+                            "isDicribe"});
+                table46.AddRow(new string[] {
                             "h5",
                             "Системи огорож",
                             "https://dimdvirdevelop.netlify.app/img/portfolio/pf1.jpg",
-                            "true,true"});
-                table2.AddRow(new string[] {
+                            "true,true",
+                            "false,true"});
+                table46.AddRow(new string[] {
                             "h5",
                             "Покрівельні системи",
                             "https://tile.ua/wp-content/uploads/2023/02/x530yf530.jpg.pagespeed.ic.hvnFsQi7o_." +
                                 "webp",
-                            "true,true"});
-                table2.AddRow(new string[] {
+                            "true,true",
+                            "false,true"});
+                table46.AddRow(new string[] {
                             "h5",
                             "Металевий сайдинг на фасад",
                             "https://tile.ua/wp-content/uploads/2021/07/xmetalevyj-sajdynh-1.jpg.pagespeed.ic." +
                                 "iCilFAWKtl.webp",
-                            "true,true"});
-                table2.AddRow(new string[] {
+                            "true,true",
+                            "false,true"});
+                table46.AddRow(new string[] {
                             "h5",
                             "Водостічні системи",
                             "https://tile.ua/wp-content/uploads/2021/07/xPravylna-vodostichka.jpg.pagespeed.ic" +
                                 ".C3TstMbhZO.webp",
-                            "true,true"});
-                table2.AddRow(new string[] {
+                            "true,true",
+                            "false,true"});
+                table46.AddRow(new string[] {
                             "h5",
                             "Комплектуючі до покрівельних систем",
                             "https://tile.ua/wp-content/uploads/2023/10/xkomplektuiuch.jpg.pagespeed.ic.AIfVle" +
                                 "-OQm.webp",
-                            "true,true"});
-#line 18
- await testRunner.AndAsync("check ourProductionSection", ((string)(null)), table2, "And ");
+                            "true,true",
+                            "false,true"});
+#line 17
+ await testRunner.AndAsync("check ourProductionSection", ((string)(null)), table46, "And ");
 #line hidden
-#line 25
+#line 24
  await testRunner.ThenAsync("compare data", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
-#line 26
+#line 25
  await testRunner.AndAsync("close browser", ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
 #line hidden
             }
@@ -258,7 +261,7 @@ this.ScenarioInitialize(scenarioInfo);
                     "tag1"};
             global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
             global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("MainPageContent - Edge - inprivate", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 29
+#line 28
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((global::Reqnroll.TagHelper.ContainsIgnoreTag(scenarioInfo.CombinedTags) || global::Reqnroll.TagHelper.ContainsIgnoreTag(featureTags)))
@@ -268,13 +271,13 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 await this.ScenarioStartAsync();
-#line 30
+#line 29
  await testRunner.GivenAsync("open page", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
-#line 31
+#line 30
  await testRunner.AndAsync("Choose button HomeButton in navigation", ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
 #line hidden
-                global::Reqnroll.Table table3 = new global::Reqnroll.Table(new string[] {
+                global::Reqnroll.Table table47 = new global::Reqnroll.Table(new string[] {
                             "OptionName",
                             "method",
                             "valueName",
@@ -283,7 +286,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "compareType",
                             "isDisplayed",
                             "compareData"});
-                table3.AddRow(new string[] {
+                table47.AddRow(new string[] {
                             "Logo",
                             "pictureCheck",
                             "Дім-Двір",
@@ -292,7 +295,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "src",
                             "true,true",
                             "https://dimdvirdevelop.netlify.app/img/logo.jpg"});
-                table3.AddRow(new string[] {
+                table47.AddRow(new string[] {
                             "Phone-number",
                             "textCheck",
                             "navbar-text",
@@ -301,7 +304,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "textContent",
                             "true,true",
                             "380-98-868-63-63"});
-                table3.AddRow(new string[] {
+                table47.AddRow(new string[] {
                             "Instagram-icon",
                             "iconCheck",
                             "icon1",
@@ -310,7 +313,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "href",
                             "true,true",
                             "https://www.instagram.com/dim_dvir?igsh=MTdtZWlvZWFqNDF3Nw%3D%3D&utm_source=qr"});
-                table3.AddRow(new string[] {
+                table47.AddRow(new string[] {
                             "facebook-icon",
                             "iconCheck",
                             "icon2",
@@ -319,7 +322,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "href",
                             "true,true",
                             "https://www.facebook.com/share/1C7ca43qC7"});
-                table3.AddRow(new string[] {
+                table47.AddRow(new string[] {
                             "HomeButton",
                             "buttonCheck",
                             "Головна",
@@ -328,7 +331,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "href",
                             "true,true",
                             "https://dimdvirdevelop.netlify.app/home"});
-                table3.AddRow(new string[] {
+                table47.AddRow(new string[] {
                             "AboutButton",
                             "buttonCheck",
                             "Про нас",
@@ -337,7 +340,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "href",
                             "true,true",
                             "https://dimdvirdevelop.netlify.app/about-us"});
-                table3.AddRow(new string[] {
+                table47.AddRow(new string[] {
                             "Catalog",
                             "buttonCheck",
                             "Каталог наших робіт",
@@ -346,44 +349,56 @@ this.ScenarioInitialize(scenarioInfo);
                             "href",
                             "true,true",
                             "https://dimdvirdevelop.netlify.app/portfolio-gallery"});
-#line 32
- await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table3, "When ");
+#line 31
+ await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table47, "When ");
 #line hidden
-                global::Reqnroll.Table table4 = new global::Reqnroll.Table(new string[] {
+                global::Reqnroll.Table table48 = new global::Reqnroll.Table(new string[] {
+                            "elementType",
                             "text",
                             "photoLink",
-                            "isDisplayed"});
-                table4.AddRow(new string[] {
+                            "isDisplayed",
+                            "isDicribe"});
+                table48.AddRow(new string[] {
+                            "h5",
                             "Системи огорож",
                             "https://dimdvirdevelop.netlify.app/img/portfolio/pf1.jpg",
-                            "true,true"});
-                table4.AddRow(new string[] {
+                            "true,true",
+                            "false,true"});
+                table48.AddRow(new string[] {
+                            "h5",
                             "Покрівельні системи",
                             "https://tile.ua/wp-content/uploads/2023/02/x530yf530.jpg.pagespeed.ic.hvnFsQi7o_." +
                                 "webp",
-                            "true,true"});
-                table4.AddRow(new string[] {
+                            "true,true",
+                            "false,true"});
+                table48.AddRow(new string[] {
+                            "h5",
                             "Металевий сайдинг на фасад",
                             "https://tile.ua/wp-content/uploads/2021/07/xmetalevyj-sajdynh-1.jpg.pagespeed.ic." +
                                 "iCilFAWKtl.webp",
-                            "true,true"});
-                table4.AddRow(new string[] {
+                            "true,true",
+                            "false,true"});
+                table48.AddRow(new string[] {
+                            "h5",
                             "Водостічні системи",
                             "https://tile.ua/wp-content/uploads/2021/07/xPravylna-vodostichka.jpg.pagespeed.ic" +
                                 ".C3TstMbhZO.webp",
-                            "true,true"});
-                table4.AddRow(new string[] {
+                            "true,true",
+                            "false,true"});
+                table48.AddRow(new string[] {
+                            "h5",
                             "Комплектуючі до покрівельних систем",
                             "https://tile.ua/wp-content/uploads/2023/10/xkomplektuiuch.jpg.pagespeed.ic.AIfVle" +
                                 "-OQm.webp",
-                            "true,true"});
-#line 41
- await testRunner.AndAsync("check ourProductionSection", ((string)(null)), table4, "And ");
+                            "true,true",
+                            "false,true"});
+#line 40
+ await testRunner.AndAsync("check ourProductionSection", ((string)(null)), table48, "And ");
 #line hidden
-#line 48
+#line 47
  await testRunner.ThenAsync("compare data", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
-#line 49
+#line 48
  await testRunner.AndAsync("close browser", ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
 #line hidden
             }

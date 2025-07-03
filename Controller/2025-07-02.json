@@ -1,0 +1,382 @@
+﻿{
+  "Version": "1.0",
+  "Date": "2025-07-02",
+  "Tests": {
+    "Test failed: CheckFourthProductionCatalog - Chrome": [
+      {
+        "Time": "11:05:23",
+        "Result": "Failed",
+        "Details": "Instagram-icon!=https://www.insagram.com/dim_dvir?igsh=MTdtZWlvZWFqNDF3Nw%3D%3D&utm_source=qr"
+      },
+      {
+        "Time": "19:17:42",
+        "Result": "Failed",
+        "Details": "Instagram-icon!=https://www.insagram.com/dim_dvir?igsh=MTdtZWlvZWFqNDF3Nw%3D%3D&utm_source=qr"
+      },
+      {
+        "Time": "19:22:06",
+        "Result": "Failed",
+        "Details": "Instagram-icon!=https://www.insagram.com/dim_dvir?igsh=MTdtZWlvZWFqNDF3Nw%3D%3D&utm_source=qr"
+      },
+      {
+        "Time": "19:33:08",
+        "Result": "Failed",
+        "Details": "Instagram-icon!=https://www.insagram.com/dim_dvir?igsh=MTdtZWlvZWFqNDF3Nw%3D%3D&utm_source=qr"
+      }
+    ],
+    "Test passed: CheckFourthProductionCatalog - Chrome": [
+      {
+        "Time": "11:05:23",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      },
+      {
+        "Time": "19:17:42",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      },
+      {
+        "Time": "19:22:06",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      }
+    ],
+    "Test passed: MainPageContent - Chrome - inprivate": [
+      {
+        "Time": "19:16:11",
+        "Result": "Passed",
+        "Details": "each element in navigation was founded"
+      },
+      {
+        "Time": "19:16:21",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      },
+      {
+        "Time": "19:31:43",
+        "Result": "Passed",
+        "Details": "each element in navigation was founded"
+      },
+      {
+        "Time": "19:31:53",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      }
+    ],
+    "Test passed: MainPageContent - Edge - inprivate": [
+      {
+        "Time": "19:16:29",
+        "Result": "Passed",
+        "Details": "each element in navigation was founded"
+      },
+      {
+        "Time": "19:16:40",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      },
+      {
+        "Time": "19:31:58",
+        "Result": "Passed",
+        "Details": "each element in navigation was founded"
+      },
+      {
+        "Time": "19:32:09",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      }
+    ],
+    "Test passed: NavigationCheck- Chrome": [
+      {
+        "Time": "19:16:44",
+        "Result": "Passed",
+        "Details": "each element in navigation was founded"
+      },
+      {
+        "Time": "19:16:44",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      },
+      {
+        "Time": "19:32:13",
+        "Result": "Passed",
+        "Details": "each element in navigation was founded"
+      },
+      {
+        "Time": "19:32:13",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      }
+    ],
+    "Test passed: NavigationCheck- Edge - inprivate": [
+      {
+        "Time": "19:16:49",
+        "Result": "Passed",
+        "Details": "each element in navigation was founded"
+      },
+      {
+        "Time": "19:16:49",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      },
+      {
+        "Time": "19:32:18",
+        "Result": "Passed",
+        "Details": "each element in navigation was founded"
+      },
+      {
+        "Time": "19:32:18",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      }
+    ],
+    "Test passed: NavigationCheckAboutPage- Chrome - inprivate": [
+      {
+        "Time": "19:16:54",
+        "Result": "Passed",
+        "Details": "each element in navigation was founded"
+      },
+      {
+        "Time": "19:16:54",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      },
+      {
+        "Time": "19:32:22",
+        "Result": "Passed",
+        "Details": "each element in navigation was founded"
+      },
+      {
+        "Time": "19:32:22",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      }
+    ],
+    "Test passed: NavigationCheckAboutPage- Edge - inprivate": [
+      {
+        "Time": "19:16:58",
+        "Result": "Passed",
+        "Details": "each element in navigation was founded"
+      },
+      {
+        "Time": "19:16:59",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      },
+      {
+        "Time": "19:32:26",
+        "Result": "Passed",
+        "Details": "each element in navigation was founded"
+      },
+      {
+        "Time": "19:32:27",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      }
+    ],
+    "Test passed: NavigationCheckCatalogePage- Chrome - inprivate": [
+      {
+        "Time": "19:17:04",
+        "Result": "Passed",
+        "Details": "each element in navigation was founded"
+      },
+      {
+        "Time": "19:17:04",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      },
+      {
+        "Time": "19:32:31",
+        "Result": "Passed",
+        "Details": "each element in navigation was founded"
+      },
+      {
+        "Time": "19:32:31",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      }
+    ],
+    "Test passed: NavigationCheckCatalogePage- Edge - inprivate": [
+      {
+        "Time": "19:17:09",
+        "Result": "Passed",
+        "Details": "each element in navigation was founded"
+      },
+      {
+        "Time": "19:17:09",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      },
+      {
+        "Time": "19:32:36",
+        "Result": "Passed",
+        "Details": "each element in navigation was founded"
+      },
+      {
+        "Time": "19:32:36",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      }
+    ],
+    "Test passed: NavigationCheckContactsPage- Chrome - inprivate": [
+      {
+        "Time": "19:17:14",
+        "Result": "Passed",
+        "Details": "each element in navigation was founded"
+      },
+      {
+        "Time": "19:17:14",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      },
+      {
+        "Time": "19:32:41",
+        "Result": "Passed",
+        "Details": "each element in navigation was founded"
+      },
+      {
+        "Time": "19:32:41",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      }
+    ],
+    "Test passed: NavigationCheckContactsPage- Edge - inprivate": [
+      {
+        "Time": "19:17:18",
+        "Result": "Passed",
+        "Details": "each element in navigation was founded"
+      },
+      {
+        "Time": "19:17:19",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      },
+      {
+        "Time": "19:32:46",
+        "Result": "Passed",
+        "Details": "each element in navigation was founded"
+      },
+      {
+        "Time": "19:32:46",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      }
+    ],
+    "Test failed: CheckFirstProductionCatalog - Chrome": [
+      {
+        "Time": "19:17:28",
+        "Result": "Failed",
+        "Details": "Phone-number!=380-9868-63-63"
+      },
+      {
+        "Time": "19:32:57",
+        "Result": "Failed",
+        "Details": "Phone-number!=380-9868-63-63"
+      }
+    ],
+    "Test passed: CheckFirstProductionCatalog - Chrome": [
+      {
+        "Time": "19:17:28",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      }
+    ],
+    "Test passed: CheckSecondProductionCatalog - Chrome": [
+      {
+        "Time": "19:17:54",
+        "Result": "Passed",
+        "Details": "each element in navigation was founded"
+      },
+      {
+        "Time": "19:18:06",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      },
+      {
+        "Time": "19:33:27",
+        "Result": "Passed",
+        "Details": "each element in navigation was founded"
+      },
+      {
+        "Time": "19:33:39",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      }
+    ],
+    "Test passed: CheckThirdProductionCatalog - Chrome": [
+      {
+        "Time": "19:18:14",
+        "Result": "Passed",
+        "Details": "each element in navigation was founded"
+      },
+      {
+        "Time": "19:18:24",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      },
+      {
+        "Time": "19:33:49",
+        "Result": "Passed",
+        "Details": "each element in navigation was founded"
+      },
+      {
+        "Time": "19:33:59",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      }
+    ],
+    "Test passed: CheckProduct1 - Chrome": [
+      {
+        "Time": "19:18:48",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      },
+      {
+        "Time": "19:20:47",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      },
+      {
+        "Time": "19:24:00",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      },
+      {
+        "Time": "19:26:16",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      },
+      {
+        "Time": "19:34:25",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      },
+      {
+        "Time": "19:36:26",
+        "Result": "Passed",
+        "Details": "scenario complete without error"
+      }
+    ],
+    " Test failed scenario name: CheckProduct1 - Chrome product1 lamela_number": [
+      {
+        "Time": "19:24:00",
+        "Result": "Failed",
+        "Details": "actual data: 1 шт dont equal expected data: 11 шт"
+      },
+      {
+        "Time": "19:25:55",
+        "Result": "Failed",
+        "Details": "actual data: 1 шт dont equal expected data: 11 шт"
+      },
+      {
+        "Time": "19:31:05",
+        "Result": "Failed",
+        "Details": "actual data: 1 шт dont equal expected data: 11 шт"
+      },
+      {
+        "Time": "19:31:39",
+        "Result": "Failed",
+        "Details": "actual data: 1 шт dont equal expected data: 11 шт"
+      }
+    ]
+  }
+}
