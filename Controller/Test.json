@@ -1,0 +1,27 @@
+﻿{
+  "2025-06-27": {
+    "6/27/2025 10:13:29 AMTest failed scenario name: CheckProduct1 - Chrome": "ЖАЛЮЗІ КЛАСЧНІ!= ЖАЛЮЗІ КЛАСИЧНІ",
+    "6/27/2025 10:14:25 AMTest passed: MainPageContent - Chrome - inprivate": "facebook-icon!=https://www.faebook.com/share/1C7ca43qC7",
+    "6/27/2025 10:15:17 AMTest passed: CheckFirstProductionCatalog - Chrome": "each element in navigation was founded",
+    "6/27/2025 10:15:28 AMTest failed scenario name: CheckFirstProductionCatalog - Chrome": "Жалюзі STANDART!= Жалюзі STANDAR or https://dimdvirdevelop.netlify.app/img/category02/Product2Photo1.png  != https://dimdvirdevelop.netlify.app/img/category02/Product2Photo1.png",
+    "6/27/2025 10:17:06 AMTest failed scenario name: CheckProduct1 - Chrome": "35!= 357",
+    "6/27/2025 10:22:41 AMTest failed scenario name: CheckProduct1 - Chrome": "product1 35!= 357",
+    "6/27/2025 10:26:47 AM Test failed scenario name: CheckProduct1 - Chrome product1": " 35!= 357",
+    "6/27/2025 10:29:49 AM Test failed scenario name: CheckProduct1 - Chrome product1": "photo_drawing 35!= 357",
+    "6/27/2025 10:55:22 AM Test failed scenario name: CheckProduct1 - Chrome width": " 35!= 357",
+    "6/27/2025 10:56:44 AM Test failed scenario name: CheckProduct1 - Chromeproduct1 width": " 35!= 357"
+  },
+  "2025-06-28": {
+    "6/28/2025 1:28:34 PMTest passed: NavigationCheck- Chrome": "scenario complete without error",
+    "6/28/2025 3:38:50 PMTest passed: NavigationCheck- Chrome": "scenario complete without error",
+    "6/28/2025 3:38:54 PMTest passed: NavigationCheck- Edge - inprivate": "each element in navigation was founded",
+    "6/28/2025 3:38:55 PMTest passed: NavigationCheck- Edge - inprivate": "scenario complete without error",
+    "6/28/2025 3:38:58 PMTest passed: NavigationCheckAboutPage- Chrome - inprivate": "scenario complete without error",
+    "6/28/2025 3:39:02 PMTest passed: NavigationCheckAboutPage- Edge - inprivate": "each element in navigation was founded",
+    "6/28/2025 3:39:03 PMTest passed: NavigationCheckAboutPage- Edge - inprivate": "scenario complete without error",
+    "6/28/2025 3:39:06 PMTest passed: NavigationCheckCatalogePage- Chrome - inprivate": "scenario complete without error",
+    "6/28/2025 3:39:11 PMTest passed: NavigationCheckCatalogePage- Edge - inprivate": "scenario complete without error",
+    "6/28/2025 3:39:14 PMTest passed: NavigationCheckContactsPage- Chrome - inprivate": "scenario complete without error",
+    "6/28/2025 3:39:19 PMTest passed: NavigationCheckContactsPage- Edge - inprivate": "scenario complete without error"
+  }
+}

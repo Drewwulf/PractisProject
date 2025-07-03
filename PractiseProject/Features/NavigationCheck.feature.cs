@@ -124,91 +124,82 @@ this.ScenarioInitialize(scenarioInfo);
 #line 7
  await testRunner.GivenAsync("Choose button HomeButton in navigation", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
-                global::Reqnroll.Table table5 = new global::Reqnroll.Table(new string[] {
+                global::Reqnroll.Table table49 = new global::Reqnroll.Table(new string[] {
                             "OptionName",
                             "method",
                             "valueName",
                             "valueType",
                             "elementType",
+                            "compareType",
                             "isDisplayed",
-                            "text",
-                            "link"});
-                table5.AddRow(new string[] {
+                            "compareData"});
+                table49.AddRow(new string[] {
                             "Logo",
                             "pictureCheck",
                             "Дім-Двір",
                             "img",
                             "alt",
+                            "src",
                             "true,true",
-                            "",
                             "https://dimdvirdevelop.netlify.app/img/logo.jpg"});
-                table5.AddRow(new string[] {
+                table49.AddRow(new string[] {
                             "Phone-number",
                             "textCheck",
                             "navbar-text",
                             "span",
                             "class",
+                            "textContent",
                             "true,true",
-                            "380-98-868-63-63",
-                            ""});
-                table5.AddRow(new string[] {
+                            "380-98-868-63-63"});
+                table49.AddRow(new string[] {
                             "Instagram-icon",
                             "iconCheck",
                             "icon1",
                             "a",
                             "id",
+                            "href",
                             "true,true",
-                            "",
                             "https://www.instagram.com/dim_dvir?igsh=MTdtZWlvZWFqNDF3Nw%3D%3D&utm_source=qr"});
-                table5.AddRow(new string[] {
+                table49.AddRow(new string[] {
                             "facebook-icon",
                             "iconCheck",
                             "icon2",
                             "a",
                             "id",
+                            "href",
                             "true,true",
-                            "",
                             "https://www.facebook.com/share/1C7ca43qC7"});
-                table5.AddRow(new string[] {
+                table49.AddRow(new string[] {
                             "HomeButton",
                             "buttonCheck",
-                            "/href",
+                            "Головна",
                             "a",
+                            "textContent",
                             "href",
                             "true,true",
-                            "Головна",
-                            ""});
-                table5.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/home"});
+                table49.AddRow(new string[] {
                             "AboutButton",
                             "buttonCheck",
-                            "/about-us",
+                            "Про нас",
                             "a",
+                            "textContent",
                             "href",
                             "true,true",
-                            "Про нас",
-                            ""});
-                table5.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/about-us"});
+                table49.AddRow(new string[] {
                             "Catalog",
                             "buttonCheck",
-                            "/portfolio-gallery",
-                            "a",
-                            "href",
-                            "true,true",
                             "Каталог наших робіт",
-                            ""});
-                table5.AddRow(new string[] {
-                            "Contacts",
-                            "buttonCheck",
-                            "/contact-us",
                             "a",
+                            "textContent",
                             "href",
                             "true,true",
-                            "Контакти",
-                            ""});
+                            "https://dimdvirdevelop.netlify.app/portfolio-gallery"});
 #line 8
- await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table5, "When ");
+  await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table49, "When ");
 #line hidden
-#line 18
+#line 17
  await testRunner.ThenAsync("close browser", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
             }
@@ -222,7 +213,7 @@ this.ScenarioInitialize(scenarioInfo);
             string[] tagsOfScenario = ((string[])(null));
             global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
             global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("NavigationCheck- Edge - inprivate", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 20
+#line 19
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((global::Reqnroll.TagHelper.ContainsIgnoreTag(scenarioInfo.CombinedTags) || global::Reqnroll.TagHelper.ContainsIgnoreTag(featureTags)))
@@ -232,94 +223,85 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 await this.ScenarioStartAsync();
-#line 21
+#line 20
  await testRunner.GivenAsync("Choose button HomeButton in navigation", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
-                global::Reqnroll.Table table6 = new global::Reqnroll.Table(new string[] {
+                global::Reqnroll.Table table50 = new global::Reqnroll.Table(new string[] {
                             "OptionName",
                             "method",
                             "valueName",
                             "valueType",
                             "elementType",
+                            "compareType",
                             "isDisplayed",
-                            "text",
-                            "link"});
-                table6.AddRow(new string[] {
+                            "compareData"});
+                table50.AddRow(new string[] {
                             "Logo",
                             "pictureCheck",
                             "Дім-Двір",
                             "img",
                             "alt",
+                            "src",
                             "true,true",
-                            "",
-                            "img/logo.jpg"});
-                table6.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/img/logo.jpg"});
+                table50.AddRow(new string[] {
                             "Phone-number",
                             "textCheck",
                             "navbar-text",
                             "span",
                             "class",
+                            "textContent",
                             "true,true",
-                            "380-98-868-63-63",
-                            ""});
-                table6.AddRow(new string[] {
+                            "380-98-868-63-63"});
+                table50.AddRow(new string[] {
                             "Instagram-icon",
                             "iconCheck",
                             "icon1",
                             "a",
                             "id",
+                            "href",
                             "true,true",
-                            "",
                             "https://www.instagram.com/dim_dvir?igsh=MTdtZWlvZWFqNDF3Nw%3D%3D&utm_source=qr"});
-                table6.AddRow(new string[] {
+                table50.AddRow(new string[] {
                             "facebook-icon",
                             "iconCheck",
                             "icon2",
                             "a",
                             "id",
+                            "href",
                             "true,true",
-                            "",
                             "https://www.facebook.com/share/1C7ca43qC7"});
-                table6.AddRow(new string[] {
+                table50.AddRow(new string[] {
                             "HomeButton",
                             "buttonCheck",
-                            "/home",
+                            "Головна",
                             "a",
+                            "textContent",
                             "href",
                             "true,true",
-                            "Головна",
-                            ""});
-                table6.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/home"});
+                table50.AddRow(new string[] {
                             "AboutButton",
                             "buttonCheck",
-                            "/about-us",
+                            "Про нас",
                             "a",
+                            "textContent",
                             "href",
                             "true,true",
-                            "Про нас",
-                            ""});
-                table6.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/about-us"});
+                table50.AddRow(new string[] {
                             "Catalog",
                             "buttonCheck",
-                            "/portfolio-gallery",
-                            "a",
-                            "href",
-                            "true,true",
                             "Каталог наших робіт",
-                            ""});
-                table6.AddRow(new string[] {
-                            "Contacts",
-                            "buttonCheck",
-                            "/contact-us",
                             "a",
+                            "textContent",
                             "href",
                             "true,true",
-                            "Контакти",
-                            ""});
-#line 22
- await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table6, "When ");
+                            "https://dimdvirdevelop.netlify.app/portfolio-gallery"});
+#line 21
+ await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table50, "When ");
 #line hidden
-#line 32
+#line 30
  await testRunner.ThenAsync("close browser", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
             }
@@ -333,7 +315,7 @@ this.ScenarioInitialize(scenarioInfo);
             string[] tagsOfScenario = ((string[])(null));
             global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
             global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("NavigationCheckAboutPage- Chrome - inprivate", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 34
+#line 32
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((global::Reqnroll.TagHelper.ContainsIgnoreTag(scenarioInfo.CombinedTags) || global::Reqnroll.TagHelper.ContainsIgnoreTag(featureTags)))
@@ -343,94 +325,85 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 await this.ScenarioStartAsync();
-#line 35
+#line 33
  await testRunner.GivenAsync("Choose button AboutUsButton in navigation", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
-                global::Reqnroll.Table table7 = new global::Reqnroll.Table(new string[] {
+                global::Reqnroll.Table table51 = new global::Reqnroll.Table(new string[] {
                             "OptionName",
                             "method",
                             "valueName",
                             "valueType",
                             "elementType",
+                            "compareType",
                             "isDisplayed",
-                            "text",
-                            "link"});
-                table7.AddRow(new string[] {
+                            "compareData"});
+                table51.AddRow(new string[] {
                             "Logo",
                             "pictureCheck",
                             "Дім-Двір",
                             "img",
                             "alt",
+                            "src",
                             "true,true",
-                            "",
-                            "img/logo.jpg"});
-                table7.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/img/logo.jpg"});
+                table51.AddRow(new string[] {
                             "Phone-number",
                             "textCheck",
                             "navbar-text",
                             "span",
                             "class",
+                            "textContent",
                             "true,true",
-                            "380-98-868-63-63",
-                            ""});
-                table7.AddRow(new string[] {
+                            "380-98-868-63-63"});
+                table51.AddRow(new string[] {
                             "Instagram-icon",
                             "iconCheck",
                             "icon1",
                             "a",
                             "id",
+                            "href",
                             "true,true",
-                            "",
                             "https://www.instagram.com/dim_dvir?igsh=MTdtZWlvZWFqNDF3Nw%3D%3D&utm_source=qr"});
-                table7.AddRow(new string[] {
+                table51.AddRow(new string[] {
                             "facebook-icon",
                             "iconCheck",
                             "icon2",
                             "a",
                             "id",
+                            "href",
                             "true,true",
-                            "",
                             "https://www.facebook.com/share/1C7ca43qC7"});
-                table7.AddRow(new string[] {
+                table51.AddRow(new string[] {
                             "HomeButton",
                             "buttonCheck",
-                            "/home",
+                            "Головна",
                             "a",
+                            "textContent",
                             "href",
                             "true,true",
-                            "Головна",
-                            ""});
-                table7.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/home"});
+                table51.AddRow(new string[] {
                             "AboutButton",
                             "buttonCheck",
-                            "/about-us",
+                            "Про нас",
                             "a",
+                            "textContent",
                             "href",
                             "true,true",
-                            "Про нас",
-                            ""});
-                table7.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/about-us"});
+                table51.AddRow(new string[] {
                             "Catalog",
                             "buttonCheck",
-                            "/portfolio-gallery",
-                            "a",
-                            "href",
-                            "true,true",
                             "Каталог наших робіт",
-                            ""});
-                table7.AddRow(new string[] {
-                            "Contacts",
-                            "buttonCheck",
-                            "/contact-us",
                             "a",
+                            "textContent",
                             "href",
                             "true,true",
-                            "Контакти",
-                            ""});
-#line 36
- await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table7, "When ");
+                            "https://dimdvirdevelop.netlify.app/portfolio-gallery"});
+#line 34
+ await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table51, "When ");
 #line hidden
-#line 46
+#line 43
  await testRunner.ThenAsync("close browser", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
             }
@@ -444,7 +417,7 @@ this.ScenarioInitialize(scenarioInfo);
             string[] tagsOfScenario = ((string[])(null));
             global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
             global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("NavigationCheckAboutPage- Edge - inprivate", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 48
+#line 45
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((global::Reqnroll.TagHelper.ContainsIgnoreTag(scenarioInfo.CombinedTags) || global::Reqnroll.TagHelper.ContainsIgnoreTag(featureTags)))
@@ -454,94 +427,85 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 await this.ScenarioStartAsync();
-#line 49
+#line 46
  await testRunner.GivenAsync("Choose button AboutUsButton in navigation", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
-                global::Reqnroll.Table table8 = new global::Reqnroll.Table(new string[] {
+                global::Reqnroll.Table table52 = new global::Reqnroll.Table(new string[] {
                             "OptionName",
                             "method",
                             "valueName",
                             "valueType",
                             "elementType",
+                            "compareType",
                             "isDisplayed",
-                            "text",
-                            "link"});
-                table8.AddRow(new string[] {
+                            "compareData"});
+                table52.AddRow(new string[] {
                             "Logo",
                             "pictureCheck",
                             "Дім-Двір",
                             "img",
                             "alt",
+                            "src",
                             "true,true",
-                            "",
-                            "img/logo.jpg"});
-                table8.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/img/logo.jpg"});
+                table52.AddRow(new string[] {
                             "Phone-number",
                             "textCheck",
                             "navbar-text",
                             "span",
                             "class",
+                            "textContent",
                             "true,true",
-                            "380-98-868-63-63",
-                            ""});
-                table8.AddRow(new string[] {
+                            "380-98-868-63-63"});
+                table52.AddRow(new string[] {
                             "Instagram-icon",
                             "iconCheck",
                             "icon1",
                             "a",
                             "id",
+                            "href",
                             "true,true",
-                            "",
                             "https://www.instagram.com/dim_dvir?igsh=MTdtZWlvZWFqNDF3Nw%3D%3D&utm_source=qr"});
-                table8.AddRow(new string[] {
+                table52.AddRow(new string[] {
                             "facebook-icon",
                             "iconCheck",
                             "icon2",
                             "a",
                             "id",
+                            "href",
                             "true,true",
-                            "",
                             "https://www.facebook.com/share/1C7ca43qC7"});
-                table8.AddRow(new string[] {
+                table52.AddRow(new string[] {
                             "HomeButton",
                             "buttonCheck",
-                            "/home",
+                            "Головна",
                             "a",
+                            "textContent",
                             "href",
                             "true,true",
-                            "Головна",
-                            ""});
-                table8.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/home"});
+                table52.AddRow(new string[] {
                             "AboutButton",
                             "buttonCheck",
-                            "/about-us",
+                            "Про нас",
                             "a",
+                            "textContent",
                             "href",
                             "true,true",
-                            "Про нас",
-                            ""});
-                table8.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/about-us"});
+                table52.AddRow(new string[] {
                             "Catalog",
                             "buttonCheck",
-                            "/portfolio-gallery",
-                            "a",
-                            "href",
-                            "true,true",
                             "Каталог наших робіт",
-                            ""});
-                table8.AddRow(new string[] {
-                            "Contacts",
-                            "buttonCheck",
-                            "/contact-us",
                             "a",
+                            "textContent",
                             "href",
                             "true,true",
-                            "Контакти",
-                            ""});
-#line 50
- await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table8, "When ");
+                            "https://dimdvirdevelop.netlify.app/portfolio-gallery"});
+#line 47
+ await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table52, "When ");
 #line hidden
-#line 60
+#line 56
  await testRunner.ThenAsync("close browser", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
             }
@@ -555,7 +519,7 @@ this.ScenarioInitialize(scenarioInfo);
             string[] tagsOfScenario = ((string[])(null));
             global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
             global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("NavigationCheckCatalogePage- Edge - inprivate", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 63
+#line 59
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((global::Reqnroll.TagHelper.ContainsIgnoreTag(scenarioInfo.CombinedTags) || global::Reqnroll.TagHelper.ContainsIgnoreTag(featureTags)))
@@ -565,94 +529,85 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 await this.ScenarioStartAsync();
-#line 64
+#line 60
  await testRunner.GivenAsync("Choose button CatalogeButton in navigation", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
-                global::Reqnroll.Table table9 = new global::Reqnroll.Table(new string[] {
+                global::Reqnroll.Table table53 = new global::Reqnroll.Table(new string[] {
                             "OptionName",
                             "method",
                             "valueName",
                             "valueType",
                             "elementType",
+                            "compareType",
                             "isDisplayed",
-                            "text",
-                            "link"});
-                table9.AddRow(new string[] {
+                            "compareData"});
+                table53.AddRow(new string[] {
                             "Logo",
                             "pictureCheck",
                             "Дім-Двір",
                             "img",
                             "alt",
+                            "src",
                             "true,true",
-                            "",
-                            "img/logo.jpg"});
-                table9.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/img/logo.jpg"});
+                table53.AddRow(new string[] {
                             "Phone-number",
                             "textCheck",
                             "navbar-text",
                             "span",
                             "class",
+                            "textContent",
                             "true,true",
-                            "380-98-868-63-63",
-                            ""});
-                table9.AddRow(new string[] {
+                            "380-98-868-63-63"});
+                table53.AddRow(new string[] {
                             "Instagram-icon",
                             "iconCheck",
                             "icon1",
                             "a",
                             "id",
+                            "href",
                             "true,true",
-                            "",
                             "https://www.instagram.com/dim_dvir?igsh=MTdtZWlvZWFqNDF3Nw%3D%3D&utm_source=qr"});
-                table9.AddRow(new string[] {
+                table53.AddRow(new string[] {
                             "facebook-icon",
                             "iconCheck",
                             "icon2",
                             "a",
                             "id",
+                            "href",
                             "true,true",
-                            "",
                             "https://www.facebook.com/share/1C7ca43qC7"});
-                table9.AddRow(new string[] {
+                table53.AddRow(new string[] {
                             "HomeButton",
                             "buttonCheck",
-                            "/home",
+                            "Головна",
                             "a",
+                            "textContent",
                             "href",
                             "true,true",
-                            "Головна",
-                            ""});
-                table9.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/home"});
+                table53.AddRow(new string[] {
                             "AboutButton",
                             "buttonCheck",
-                            "/about-us",
+                            "Про нас",
                             "a",
+                            "textContent",
                             "href",
                             "true,true",
-                            "Про нас",
-                            ""});
-                table9.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/about-us"});
+                table53.AddRow(new string[] {
                             "Catalog",
                             "buttonCheck",
-                            "/portfolio-gallery",
-                            "a",
-                            "href",
-                            "true,true",
                             "Каталог наших робіт",
-                            ""});
-                table9.AddRow(new string[] {
-                            "Contacts",
-                            "buttonCheck",
-                            "/contact-us",
                             "a",
+                            "textContent",
                             "href",
                             "true,true",
-                            "Контакти",
-                            ""});
-#line 65
- await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table9, "When ");
+                            "https://dimdvirdevelop.netlify.app/portfolio-gallery"});
+#line 61
+ await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table53, "When ");
 #line hidden
-#line 75
+#line 70
  await testRunner.ThenAsync("close browser", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
             }
@@ -666,7 +621,7 @@ this.ScenarioInitialize(scenarioInfo);
             string[] tagsOfScenario = ((string[])(null));
             global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
             global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("NavigationCheckCatalogePage- Chrome - inprivate", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 77
+#line 72
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((global::Reqnroll.TagHelper.ContainsIgnoreTag(scenarioInfo.CombinedTags) || global::Reqnroll.TagHelper.ContainsIgnoreTag(featureTags)))
@@ -676,94 +631,85 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 await this.ScenarioStartAsync();
-#line 78
+#line 73
  await testRunner.GivenAsync("Choose button CatalogeButton in navigation", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
-                global::Reqnroll.Table table10 = new global::Reqnroll.Table(new string[] {
+                global::Reqnroll.Table table54 = new global::Reqnroll.Table(new string[] {
                             "OptionName",
                             "method",
                             "valueName",
                             "valueType",
                             "elementType",
+                            "compareType",
                             "isDisplayed",
-                            "text",
-                            "link"});
-                table10.AddRow(new string[] {
+                            "compareData"});
+                table54.AddRow(new string[] {
                             "Logo",
                             "pictureCheck",
                             "Дім-Двір",
                             "img",
                             "alt",
+                            "src",
                             "true,true",
-                            "",
-                            "img/logo.jpg"});
-                table10.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/img/logo.jpg"});
+                table54.AddRow(new string[] {
                             "Phone-number",
                             "textCheck",
                             "navbar-text",
                             "span",
                             "class",
+                            "textContent",
                             "true,true",
-                            "380-98-868-63-63",
-                            ""});
-                table10.AddRow(new string[] {
+                            "380-98-868-63-63"});
+                table54.AddRow(new string[] {
                             "Instagram-icon",
                             "iconCheck",
                             "icon1",
                             "a",
                             "id",
+                            "href",
                             "true,true",
-                            "",
                             "https://www.instagram.com/dim_dvir?igsh=MTdtZWlvZWFqNDF3Nw%3D%3D&utm_source=qr"});
-                table10.AddRow(new string[] {
+                table54.AddRow(new string[] {
                             "facebook-icon",
                             "iconCheck",
                             "icon2",
                             "a",
                             "id",
+                            "href",
                             "true,true",
-                            "",
                             "https://www.facebook.com/share/1C7ca43qC7"});
-                table10.AddRow(new string[] {
+                table54.AddRow(new string[] {
                             "HomeButton",
                             "buttonCheck",
-                            "/home",
+                            "Головна",
                             "a",
+                            "textContent",
                             "href",
                             "true,true",
-                            "Головна",
-                            ""});
-                table10.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/home"});
+                table54.AddRow(new string[] {
                             "AboutButton",
                             "buttonCheck",
-                            "/about-us",
+                            "Про нас",
                             "a",
+                            "textContent",
                             "href",
                             "true,true",
-                            "Про нас",
-                            ""});
-                table10.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/about-us"});
+                table54.AddRow(new string[] {
                             "Catalog",
                             "buttonCheck",
-                            "/portfolio-gallery",
-                            "a",
-                            "href",
-                            "true,true",
                             "Каталог наших робіт",
-                            ""});
-                table10.AddRow(new string[] {
-                            "Contacts",
-                            "buttonCheck",
-                            "/contact-us",
                             "a",
+                            "textContent",
                             "href",
                             "true,true",
-                            "Контакти",
-                            ""});
-#line 79
- await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table10, "When ");
+                            "https://dimdvirdevelop.netlify.app/portfolio-gallery"});
+#line 74
+ await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table54, "When ");
 #line hidden
-#line 89
+#line 83
  await testRunner.ThenAsync("close browser", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
             }
@@ -777,7 +723,7 @@ this.ScenarioInitialize(scenarioInfo);
             string[] tagsOfScenario = ((string[])(null));
             global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
             global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("NavigationCheckContactsPage- Edge - inprivate", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 91
+#line 85
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((global::Reqnroll.TagHelper.ContainsIgnoreTag(scenarioInfo.CombinedTags) || global::Reqnroll.TagHelper.ContainsIgnoreTag(featureTags)))
@@ -787,94 +733,85 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 await this.ScenarioStartAsync();
-#line 92
+#line 86
  await testRunner.GivenAsync("Choose button ContactsButton in navigation", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
-                global::Reqnroll.Table table11 = new global::Reqnroll.Table(new string[] {
+                global::Reqnroll.Table table55 = new global::Reqnroll.Table(new string[] {
                             "OptionName",
                             "method",
                             "valueName",
                             "valueType",
                             "elementType",
+                            "compareType",
                             "isDisplayed",
-                            "text",
-                            "link"});
-                table11.AddRow(new string[] {
+                            "compareData"});
+                table55.AddRow(new string[] {
                             "Logo",
                             "pictureCheck",
                             "Дім-Двір",
                             "img",
                             "alt",
+                            "src",
                             "true,true",
-                            "",
-                            "img/logo.jpg"});
-                table11.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/img/logo.jpg"});
+                table55.AddRow(new string[] {
                             "Phone-number",
                             "textCheck",
                             "navbar-text",
                             "span",
                             "class",
+                            "textContent",
                             "true,true",
-                            "380-98-868-63-63",
-                            ""});
-                table11.AddRow(new string[] {
+                            "380-98-868-63-63"});
+                table55.AddRow(new string[] {
                             "Instagram-icon",
                             "iconCheck",
                             "icon1",
                             "a",
                             "id",
+                            "href",
                             "true,true",
-                            "",
                             "https://www.instagram.com/dim_dvir?igsh=MTdtZWlvZWFqNDF3Nw%3D%3D&utm_source=qr"});
-                table11.AddRow(new string[] {
+                table55.AddRow(new string[] {
                             "facebook-icon",
                             "iconCheck",
                             "icon2",
                             "a",
                             "id",
+                            "href",
                             "true,true",
-                            "",
                             "https://www.facebook.com/share/1C7ca43qC7"});
-                table11.AddRow(new string[] {
+                table55.AddRow(new string[] {
                             "HomeButton",
                             "buttonCheck",
-                            "/home",
+                            "Головна",
                             "a",
+                            "textContent",
                             "href",
                             "true,true",
-                            "Головна",
-                            ""});
-                table11.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/home"});
+                table55.AddRow(new string[] {
                             "AboutButton",
                             "buttonCheck",
-                            "/about-us",
+                            "Про нас",
                             "a",
+                            "textContent",
                             "href",
                             "true,true",
-                            "Про нас",
-                            ""});
-                table11.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/about-us"});
+                table55.AddRow(new string[] {
                             "Catalog",
                             "buttonCheck",
-                            "/portfolio-gallery",
-                            "a",
-                            "href",
-                            "true,true",
                             "Каталог наших робіт",
-                            ""});
-                table11.AddRow(new string[] {
-                            "Contacts",
-                            "buttonCheck",
-                            "/contact-us",
                             "a",
+                            "textContent",
                             "href",
                             "true,true",
-                            "Контакти",
-                            ""});
-#line 93
- await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table11, "When ");
+                            "https://dimdvirdevelop.netlify.app/portfolio-gallery"});
+#line 87
+ await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table55, "When ");
 #line hidden
-#line 103
+#line 96
  await testRunner.ThenAsync("close browser", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
             }
@@ -888,7 +825,7 @@ this.ScenarioInitialize(scenarioInfo);
             string[] tagsOfScenario = ((string[])(null));
             global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
             global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("NavigationCheckContactsPage- Chrome - inprivate", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 105
+#line 98
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((global::Reqnroll.TagHelper.ContainsIgnoreTag(scenarioInfo.CombinedTags) || global::Reqnroll.TagHelper.ContainsIgnoreTag(featureTags)))
@@ -898,94 +835,85 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 await this.ScenarioStartAsync();
-#line 106
+#line 99
  await testRunner.GivenAsync("Choose button ContactsButton in navigation", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
-                global::Reqnroll.Table table12 = new global::Reqnroll.Table(new string[] {
+                global::Reqnroll.Table table56 = new global::Reqnroll.Table(new string[] {
                             "OptionName",
                             "method",
                             "valueName",
                             "valueType",
                             "elementType",
+                            "compareType",
                             "isDisplayed",
-                            "text",
-                            "link"});
-                table12.AddRow(new string[] {
+                            "compareData"});
+                table56.AddRow(new string[] {
                             "Logo",
                             "pictureCheck",
                             "Дім-Двір",
                             "img",
                             "alt",
+                            "src",
                             "true,true",
-                            "",
-                            "img/logo.jpg"});
-                table12.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/img/logo.jpg"});
+                table56.AddRow(new string[] {
                             "Phone-number",
                             "textCheck",
                             "navbar-text",
                             "span",
                             "class",
+                            "textContent",
                             "true,true",
-                            "380-98-868-63-63",
-                            ""});
-                table12.AddRow(new string[] {
+                            "380-98-868-63-63"});
+                table56.AddRow(new string[] {
                             "Instagram-icon",
                             "iconCheck",
                             "icon1",
                             "a",
                             "id",
+                            "href",
                             "true,true",
-                            "",
                             "https://www.instagram.com/dim_dvir?igsh=MTdtZWlvZWFqNDF3Nw%3D%3D&utm_source=qr"});
-                table12.AddRow(new string[] {
+                table56.AddRow(new string[] {
                             "facebook-icon",
                             "iconCheck",
                             "icon2",
                             "a",
                             "id",
+                            "href",
                             "true,true",
-                            "",
                             "https://www.facebook.com/share/1C7ca43qC7"});
-                table12.AddRow(new string[] {
+                table56.AddRow(new string[] {
                             "HomeButton",
                             "buttonCheck",
-                            "/home",
+                            "Головна",
                             "a",
+                            "textContent",
                             "href",
                             "true,true",
-                            "Головна",
-                            ""});
-                table12.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/home"});
+                table56.AddRow(new string[] {
                             "AboutButton",
                             "buttonCheck",
-                            "/about-us",
+                            "Про нас",
                             "a",
+                            "textContent",
                             "href",
                             "true,true",
-                            "Про нас",
-                            ""});
-                table12.AddRow(new string[] {
+                            "https://dimdvirdevelop.netlify.app/about-us"});
+                table56.AddRow(new string[] {
                             "Catalog",
                             "buttonCheck",
-                            "/portfolio-gallery",
-                            "a",
-                            "href",
-                            "true,true",
                             "Каталог наших робіт",
-                            ""});
-                table12.AddRow(new string[] {
-                            "Contacts",
-                            "buttonCheck",
-                            "/contact-us",
                             "a",
+                            "textContent",
                             "href",
                             "true,true",
-                            "Контакти",
-                            ""});
-#line 107
- await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table12, "When ");
+                            "https://dimdvirdevelop.netlify.app/portfolio-gallery"});
+#line 100
+ await testRunner.WhenAsync("Check all components in navigation", ((string)(null)), table56, "When ");
 #line hidden
-#line 117
+#line 109
  await testRunner.ThenAsync("close browser", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
             }

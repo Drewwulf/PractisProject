@@ -2,6 +2,7 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Edge;
+using OpenQA.Selenium.Support.UI;
 
 
 namespace PractiseProject.Drivers
@@ -10,6 +11,7 @@ namespace PractiseProject.Drivers
     {
         private readonly ScenarioContext scenarioContext;
         IWebDriver driver;
+        WebDriverWait wait;
         public DriverFixture(ScenarioContext scenarioContext)
         {
             this.scenarioContext = scenarioContext;
@@ -17,6 +19,8 @@ namespace PractiseProject.Drivers
             driver.Manage().Window.Maximize();
             driver.Navigate().GoToUrl("https://dimdvirdevelop.netlify.app/");
         }
+        public WebDriverWait Wait()=>  wait= new WebDriverWait(driver,TimeSpan.FromSeconds(30));
+        
         public void SetBrowser()
         {
             switch (GetBrowser())

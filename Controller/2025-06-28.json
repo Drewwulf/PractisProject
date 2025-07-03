@@ -1,0 +1,14 @@
+﻿{
+  "Test passed: NavigationCheck- Chrome": [
+    {
+      "Time": "15:41:07",
+      "Result": "Passed",
+      "Details": "each element in navigation was founded"
+    },
+    {
+      "Time": "15:41:07",
+      "Result": "Passed",
+      "Details": "scenario complete without error"
+    }
+  ]
+}
